@@ -1,11 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
 import Ico from '../../components/Ico.astro';
-import { katalog, site, t, path, langs, alternates, ROUTE, waLink, nama } from '../../lib/site.js';
+import { katalog, resep, site, t, path, langs, alternates, ROUTE, waLink, nama } from '../../lib/site.js';
 
 export function getStaticPaths() {
-  const halaman = ['katalog', 'tentang', 'kontak'];
+  const halaman = ['katalog', 'resep', 'tentang', 'kontak'];
   return langs.flatMap((lang) =>
     halaman.map((kunci) => ({ params: { lang, page: ROUTE[kunci][lang] }, props: { kunci } }))
   );
@@ -14,8 +15,8 @@ const { lang } = Astro.params;
 const { kunci } = Astro.props;
 const alt = alternates(kunci);
 const produk = katalog.produk;
-const judul = { katalog: t(lang, 'cat.title'), tentang: t(lang, 'about.title') + ' ' + t(lang, 'about.title.em'), kontak: t(lang, 'contact.title') }[kunci];
-const deskripsi = { katalog: t(lang, 'cat.desc'), tentang: t(lang, 'hero.desc'), kontak: t(lang, 'contact.desc') }[kunci];
+const judul = { katalog: t(lang, 'cat.title'), resep: t(lang, 'recipe.title'), tentang: t(lang, 'about.title') + ' ' + t(lang, 'about.title.em'), kontak: t(lang, 'contact.title') }[kunci];
+const deskripsi = { katalog: t(lang, 'cat.desc'), resep: t(lang, 'recipe.desc'), tentang: t(lang, 'hero.desc'), kontak: t(lang, 'contact.desc') }[kunci];
 const wa = waLink(`${t(lang, 'wa.msg')}\n\n${site.url}/${lang}/`);
 const tel = `tel:${site.telepon.replace(/[^+\d]/g, '')}`;
 const aboutFoto = produk.find((p) => p.foto.length);
@@ -58,6 +59,26 @@ const aboutFitur = [['star', 1], ['temp', 2], ['cut', 3]];
               {t(lang, 'cat.more')}
             </button>
           </p>
+        </div>
+      </section>
+    </>
+  )}
+
+  {kunci === 'resep' && (
+    <>
+      <section class="section" style="padding-bottom:26px">
+        <div class="inner head-c">
+          <p class="eyebrow">{t(lang, 'recipe.eyebrow')}</p>
+          <h1 class="orn">{t(lang, 'recipe.title')}</h1>
+          <p class="lead" style="text-align:center">{deskripsi}</p>
+          <p class="count">{t(lang, 'recipe.count', { n: resep.length })}</p>
+        </div>
+      </section>
+      <section class="section" style="padding-top:8px">
+        <div class="inner">
+          <div class="grid">
+            {resep.map((r) => <RecipeCard {r} {lang} />)}
+          </div>
         </div>
       </section>
     </>

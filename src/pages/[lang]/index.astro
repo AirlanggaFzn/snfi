@@ -1,9 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
 import Rail from '../../components/Rail.astro';
 import Ico from '../../components/Ico.astro';
-import { katalog, site, t, path, langs, alternates, nama, waLink } from '../../lib/site.js';
+import { katalog, resep, site, t, path, langs, alternates, nama, waLink } from '../../lib/site.js';
 
 export function getStaticPaths() {
   return langs.map((lang) => ({ params: { lang } }));
@@ -13,8 +14,6 @@ const produk = katalog.produk;
 const kategori = katalog.kategori;
 const berfoto = produk.filter((p) => p.foto.length);
 const unggulan = berfoto.slice(0, 12);
-const bandFoto = berfoto[6];
-const aboutFoto = berfoto[0];
 const alt = alternates();
 const wa = waLink(`${t(lang, 'wa.msg')}\n\n${site.url}/${lang}/`);
 const tel = `tel:${site.telepon.replace(/[^+\d]/g, '')}`;
@@ -72,28 +71,19 @@ const rantai = [1, 2, 3, 4];
 
   <!-- tentang singkat -->
   <section class="section alt">
-    <div class="inner about">
-      <div class="about-shot">
-        <img src={aboutFoto.foto[0]} alt={nama(aboutFoto, lang)} width="800" height="800" loading="lazy" />
-        <div class="tag-exp">
-          <b>{t(lang, 'about.exp.n')}</b>
-          <small>{t(lang, 'about.exp.t')}</small>
-        </div>
-      </div>
-      <div>
-        <p class="eyebrow">{t(lang, 'about.eyebrow')}</p>
-        <h2 style="margin:10px 0 14px">{t(lang, 'about.title')} <em>{t(lang, 'about.title.em')}</em></h2>
-        <p class="lead">{t(lang, 'hero.desc')}</p>
-        <ul class="about-list">
-          {aboutFitur.map(([ico, n]) => (
-            <li>
-              <span class="ico" style="color:var(--blue)"><Ico name={ico} /></span>
-              <span><b>{t(lang, `about.f${n}.t`)}</b><br /><small style="color:var(--ink-soft)">{t(lang, `about.f${n}.d`)}</small></span>
-            </li>
-          ))}
-        </ul>
-        <a class="btn" href={path(lang, 'tentang')}>{t(lang, 'about.cta')} &#8594;</a>
-      </div>
+    <div class="inner">
+      <p class="eyebrow">{t(lang, 'about.eyebrow')}</p>
+      <h2 style="margin:10px 0 14px">{t(lang, 'about.title')} <em>{t(lang, 'about.title.em')}</em></h2>
+      <p class="lead">{t(lang, 'hero.desc')}</p>
+      <ul class="about-list" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:22px 0 26px">
+        {aboutFitur.map(([ico, n]) => (
+          <li>
+            <span class="ico" style="color:var(--blue)"><Ico name={ico} /></span>
+            <span><b>{t(lang, `about.f${n}.t`)}</b><br /><small style="color:var(--ink-soft)">{t(lang, `about.f${n}.d`)}</small></span>
+          </li>
+        ))}
+      </ul>
+      <a class="btn" href={path(lang, 'tentang')}>{t(lang, 'about.cta')} &#8594;</a>
     </div>
   </section>
 
@@ -128,21 +118,35 @@ const rantai = [1, 2, 3, 4];
     </div>
   </section>
 
+  <!-- resep -->
+  <section class="section">
+    <div class="inner">
+      <div class="head-c">
+        <p class="eyebrow">{t(lang, 'recipe.eyebrow')}</p>
+        <h2 class="orn">{t(lang, 'recipe.sec.title')}</h2>
+        <p class="lead" style="text-align:center">{t(lang, 'recipe.sec.desc')}</p>
+      </div>
+      <div class="grid">
+        {resep.slice(0, 4).map((r) => <RecipeCard {r} {lang} />)}
+      </div>
+      <p style="text-align:center;margin-top:30px">
+        <a class="btn" href={path(lang, 'resep')}>{t(lang, 'recipe.title')} &#8594;</a>
+      </p>
+    </div>
+  </section>
+
   <!-- pita ajakan -->
   <section class="section">
     <div class="inner">
-      <div class="band">
-        <div class="txt">
+      <div class="band" style="grid-template-columns:1fr">
+        <div class="txt" style="max-width:760px">
           <p class="eyebrow">{t(lang, 'band.eyebrow')}</p>
           <h2>{t(lang, 'band.title')}</h2>
-          <p>{t(lang, 'band.desc')}</p>
+          <p style="max-width:64ch">{t(lang, 'band.desc')}</p>
           <div style="display:flex;gap:12px;flex-wrap:wrap">
             <a class="btn btn-accent" href={wa} rel="noopener"><Ico name="chat" size={17} /> {t(lang, 'cta.ask')}</a>
             <a class="btn btn-line" href={tel}>{site.telepon}</a>
           </div>
-        </div>
-        <div class="band-shot">
-          <img src={bandFoto.foto[0]} alt={nama(bandFoto, lang)} width="800" height="800" loading="lazy" />
         </div>
       </div>
     </div>

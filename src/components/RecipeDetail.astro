@@ -1,0 +1,98 @@
+---
+import Base from '../layouts/Base.astro';
+import RecipeCard from './RecipeCard.astro';
+import Ico from './Ico.astro';
+import { resep, site, t, path, alternates, produkDari, nama, waLink } from '../lib/site.js';
+
+const { r, lang } = Astro.props;
+const judul = lang === 'en' ? r.nama_en : r.nama_id;
+const ringkas = lang === 'en' ? r.ringkas_en : r.ringkas_id;
+const tingkat = lang === 'en' ? r.tingkat_en : r.tingkat_id;
+const bahan = lang === 'en' ? r.bahan_en : r.bahan_id;
+const langkah = lang === 'en' ? r.langkah_en : r.langkah_id;
+const alt = alternates('resep', r.slug);
+const url = new URL(path(lang, 'resep', r.slug), site.url).href;
+const prod = produkDari(r.produk_slug);
+const foto = r.foto || prod?.foto[0];
+const terkait = resep.filter((x) => x.slug !== r.slug).slice(0, 6);
+const wa = waLink(`${t(lang, 'wa.msg')}\n\n${judul}\n${url}`);
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Recipe',
+  name: judul,
+  description: ringkas,
+  ...(foto ? { image: new URL(foto, site.url).href } : {}),
+  author: { '@type': 'Organization', name: site.nama_panjang },
+  totalTime: `PT${r.waktu}M`,
+  recipeYield: r.porsi,
+  recipeIngredient: bahan,
+  recipeInstructions: langkah.map((step) => ({ '@type': 'HowToStep', text: step })),
+};
+---
+<Base {lang} {alt} aktif="resep" image={foto}
+      title={`${judul} — ${site.nama_panjang}`} description={ringkas} jsonld={jsonld}>
+
+  <section class="section">
+    <div class="inner">
+      <p class="count" style="text-align:left;margin-bottom:20px">
+        <a href={path(lang, 'resep')} style="text-decoration:none">{t(lang, 'recipe.title')}</a>
+        <span> / </span>{judul}
+      </p>
+
+      <div class="detail">
+        <div class="detail-shot">
+          {foto
+            ? <img src={foto} alt={judul} width="800" height="800" fetchpriority="high" />
+            : <div class="ph">{judul}</div>}
+
+          <div class="recipe-meta">
+            <div><span class="eyebrow">{t(lang, 'recipe.time')}</span><b>{r.waktu} {t(lang, 'recipe.min')}</b></div>
+            <div><span class="eyebrow">{t(lang, 'recipe.serves')}</span><b>{r.porsi}</b></div>
+            <div><span class="eyebrow">{t(lang, 'recipe.level')}</span><b>{tingkat}</b></div>
+          </div>
+
+          {prod && (
+            <div class="recipe-prod">
+              <span class="eyebrow">{t(lang, 'recipe.product')}</span>
+              <a href={path(lang, 'produk', prod.slug)}>{nama(prod, lang)} &#8594;</a>
+            </div>
+          )}
+        </div>
+
+        <div>
+          <p class="eyebrow">{t(lang, 'recipe.title')}</p>
+          <h1 style="margin:10px 0 14px;font-size:clamp(28px,4vw,46px)">{judul}</h1>
+          <p class="lead">{ringkas}</p>
+
+          <h2 style="font-size:22px;margin:26px 0 12px">{t(lang, 'recipe.ingredients')}</h2>
+          <ul class="recipe-bahan">
+            {bahan.map((b) => <li>{b}</li>)}
+          </ul>
+
+          <h2 style="font-size:22px;margin:26px 0 12px">{t(lang, 'recipe.steps')}</h2>
+          <ol class="recipe-langkah">
+            {langkah.map((s) => <li>{s}</li>)}
+          </ol>
+
+          <div class="acts-col">
+            <a class="btn" href={wa} rel="noopener"><Ico name="chat" size={17} /> {t(lang, 'recipe.cta')}</a>
+            <a class="btn btn-line" href={path(lang, 'resep')}>{t(lang, 'recipe.back')}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {terkait.length > 0 && (
+    <section class="section alt">
+      <div class="inner">
+        <div class="head-c">
+          <p class="eyebrow">{t(lang, 'recipe.eyebrow')}</p>
+          <h2 class="orn">{t(lang, 'recipe.related')}</h2>
+        </div>
+        <div class="grid">{terkait.map((x) => <RecipeCard r={x} {lang} />)}</div>
+      </div>
+    </section>
+  )}
+</Base>

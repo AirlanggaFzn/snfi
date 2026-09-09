@@ -1,0 +1,21 @@
+---
+import { path, produkDari, t } from '../lib/site.js';
+const { r, lang } = Astro.props;
+const judul = lang === 'en' ? r.nama_en : r.nama_id;
+const ringkas = lang === 'en' ? r.ringkas_en : r.ringkas_id;
+const foto = r.foto || produkDari(r.produk_slug)?.foto[0];
+---
+<a class="card" href={path(lang, 'resep', r.slug)}>
+  {foto
+    ? <img src={foto} alt={judul} width="800" height="800" loading="lazy" decoding="async" />
+    : <div class="ph" aria-hidden="true">{judul}</div>}
+  <div class="body">
+    <span class="chip">{r.waktu} {t(lang, 'recipe.min')} · {lang === 'en' ? r.tingkat_en : r.tingkat_id}</span>
+    <h3>{judul}</h3>
+    <p class="meta">{ringkas}</p>
+    <div class="foot-row">
+      <span class="ask">{t(lang, 'recipe.view')}</span>
+      <span class="plus" aria-hidden="true">&#43;</span>
+    </div>
+  </div>
+</a>

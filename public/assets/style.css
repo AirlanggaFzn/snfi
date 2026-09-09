@@ -256,6 +256,22 @@ main.wrap{max-width:none;padding:0}
 .info-card{background:var(--surface);border-radius:var(--r);padding:24px;
            box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:8px}
 
+/* ---------- resep ---------- */
+.recipe-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+.recipe-meta > div{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r-sm);
+                   padding:12px;text-align:center;display:flex;flex-direction:column;gap:3px}
+.recipe-meta b{font-family:"Playfair Display",Georgia,serif;font-size:17px}
+.recipe-prod{margin-top:14px;background:var(--blue-soft);border-radius:var(--r-sm);padding:14px 16px;
+             display:flex;flex-direction:column;gap:4px}
+.recipe-prod a{font-weight:600;color:var(--blue);text-decoration:none}
+.recipe-prod a:hover{text-decoration:underline}
+.recipe-bahan{margin:0;padding-left:20px;color:var(--ink-soft);display:flex;flex-direction:column;gap:8px}
+.recipe-langkah{margin:0;padding-left:22px;color:var(--ink-soft);display:flex;flex-direction:column;gap:12px}
+.recipe-langkah li{padding-left:4px}
+.recipe-bahan li::marker{color:var(--accent)}
+.recipe-langkah li::marker{color:var(--blue);font-family:"Playfair Display",Georgia,serif;font-weight:600}
+a.card .meta{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
 /* ---------- footer ---------- */
 .foot{background:var(--blue-deep);color:#C6D6E8;padding:clamp(40px,6vw,64px) 0 0}
 .foot h4{font-family:Inter,sans-serif;font-size:13px;letter-spacing:.12em;text-transform:uppercase;

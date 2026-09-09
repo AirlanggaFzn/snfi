@@ -1,117 +1,25 @@
 ---
-import Base from '../../../layouts/Base.astro';
-import ProductCard from '../../../components/ProductCard.astro';
-import Ico from '../../../components/Ico.astro';
-import { katalog, site, t, path, langs, alternates, nama, kategoriDari, ROUTE, waLink } from '../../../lib/site.js';
+import ProductDetail from '../../../components/ProductDetail.astro';
+import RecipeDetail from '../../../components/RecipeDetail.astro';
+import { katalog, resep, langs, ROUTE } from '../../../lib/site.js';
 
 export function getStaticPaths() {
-  return langs.flatMap((lang) =>
+  const produk = langs.flatMap((lang) =>
     katalog.produk.map((p) => ({
       params: { lang, section: ROUTE.produk[lang], slug: p.slug },
       props: { p },
     }))
   );
+  const resepPaths = langs.flatMap((lang) =>
+    resep.map((r) => ({
+      params: { lang, section: ROUTE.resep[lang], slug: r.slug },
+      props: { r },
+    }))
+  );
+  return [...produk, ...resepPaths];
 }
+
 const { lang } = Astro.params;
-const { p } = Astro.props;
-const kat = kategoriDari(p.kategori_slug);
-const judul = nama(p, lang);
-const alt = alternates('produk', p.slug);
-const url = new URL(path(lang, 'produk', p.slug), site.url).href;
-const foto = p.foto[0];
-const deskripsi = t(lang, 'prod.desc', { nama: judul });
-const ukuran = p.varian.map((v) => v.ukuran).filter(Boolean);
-const galeri = p.varian.filter((v) => v.foto);
-const terkait = katalog.produk.filter((q) => q.kategori_slug === p.kategori_slug && q.slug !== p.slug).slice(0, 8);
-const wa = waLink(`${t(lang, 'wa.msg')}\n\n${judul} (${p.sku})\n${url}`);
-const tel = `tel:${site.telepon.replace(/[^+\d]/g, '')}`;
-
-const jsonld = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: judul,
-  sku: p.sku,
-  category: kat.en,
-  description: deskripsi,
-  brand: { '@type': 'Brand', name: site.nama },
-  ...(foto ? { image: new URL(foto, site.url).href } : {}),
-  offers: {
-    '@type': 'Offer',
-    availability: 'https://schema.org/InStock',
-    priceCurrency: 'IDR',
-    price: '0',
-    url,
-    seller: { '@type': 'Organization', name: site.nama_panjang },
-  },
-};
+const { p, r } = Astro.props;
 ---
-<Base {lang} {alt} aktif="katalog" image={foto}
-      title={`${judul} — ${site.nama_panjang}`} description={deskripsi} jsonld={jsonld}>
-
-  <section class="section">
-    <div class="inner">
-      <p class="count" style="text-align:left;margin-bottom:20px">
-        <a href={path(lang, 'katalog')} style="text-decoration:none">{t(lang, 'nav.catalog')}</a>
-        <span> / </span>
-        <a href={`${path(lang, 'katalog')}?kategori=${p.kategori_slug}`} style="text-decoration:none">{kat[lang]}</a>
-      </p>
-
-      <div class="detail">
-        <div class="detail-shot">
-          {foto
-            ? <img src={foto} alt={judul} width="800" height="800" fetchpriority="high" />
-            : <div class="ph">{kat[lang]}</div>}
-          {galeri.length > 1 && (
-            <div class="galeri">
-              {galeri.map((v) => (
-                <figure>
-                  <img src={v.foto} alt={`${judul} ${v.ukuran}`} width="800" height="800" loading="lazy" />
-                  <figcaption>{v.ukuran}</figcaption>
-                </figure>
-              ))}
-            </div>
-          )}
-        </div>
-
-        <div>
-          <p class="eyebrow">{kat[lang]}</p>
-          <h1 style="margin:10px 0 14px;font-size:clamp(28px,4vw,46px)">{judul}</h1>
-          <p class="lead">{deskripsi}</p>
-
-          <table class="spec">
-            <tbody>
-              <tr><th>{t(lang, 'prod.sku')}</th><td>{p.sku}</td></tr>
-              <tr><th>{t(lang, 'prod.kategori')}</th><td>{kat[lang]}</td></tr>
-              {p.asal && <tr><th>{t(lang, 'prod.asal')}</th><td>{p.asal}</td></tr>}
-              {ukuran.length > 0 && (
-                <tr><th>{t(lang, 'prod.varian')}</th><td>{ukuran.join(' · ')}</td></tr>
-              )}
-              <tr><th>{t(lang, 'prod.simpan')}</th><td>{t(lang, 'prod.simpan.val')}</td></tr>
-              <tr><th>{t(lang, 'prod.kemas')}</th><td>{t(lang, 'prod.kemas.val')}</td></tr>
-            </tbody>
-          </table>
-
-          <div class="acts-col">
-            <a class="btn" href={wa} rel="noopener"><Ico name="chat" size={17} /> {t(lang, 'cta.ask')}</a>
-            <a class="btn btn-line" href={tel}><Ico name="phone" size={17} /> {site.telepon}</a>
-            <a class="btn btn-line" href={`mailto:${site.email}?subject=${encodeURIComponent(judul + ' (' + p.sku + ')')}`}>
-              <Ico name="mail" size={17} /> {t(lang, 'prod.email')}
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  {terkait.length > 0 && (
-    <section class="section alt">
-      <div class="inner">
-        <div class="head-c">
-          <p class="eyebrow">{kat[lang]}</p>
-          <h2 class="orn">{t(lang, 'prod.terkait')}</h2>
-        </div>
-        <div class="grid">{terkait.map((q) => <ProductCard p={q} {lang} />)}</div>
-      </div>
-    </section>
-  )}
-</Base>
+{r ? <RecipeDetail {r} {lang} /> : <ProductDetail {p} {lang} />}

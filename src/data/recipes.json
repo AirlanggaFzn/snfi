@@ -1,0 +1,470 @@
+{
+  "resep": [
+    {
+      "slug": "wagyu-saikoro-lada-hitam",
+      "produk_slug": "wagyu-meltique-beef-saikoro",
+      "kategori_slug": "beef",
+      "waktu": 20,
+      "porsi": "2",
+      "tingkat_id": "Mudah",
+      "tingkat_en": "Easy",
+      "nama_id": "Wagyu Saikoro Lada Hitam",
+      "nama_en": "Black Pepper Wagyu Saikoro",
+      "ringkas_id": "Dadu wagyu meltique dimasak cepat dengan saus lada hitam, matang di luar, juicy di dalam.",
+      "ringkas_en": "Meltique wagyu cubes seared fast in a black pepper sauce, crusted outside and juicy within.",
+      "bahan_id": [
+        "300 g Wagyu Meltique Beef Saikoro, suhu ruang 15 menit",
+        "1 sdm mentega",
+        "3 siung bawang putih, cincang",
+        "2 sdm kecap asin",
+        "1 sdm saus tiram",
+        "1 sdt lada hitam kasar",
+        "1 sdt gula",
+        "50 ml air"
+      ],
+      "bahan_en": [
+        "300 g Wagyu Meltique Beef Saikoro, rested 15 min at room temp",
+        "1 tbsp butter",
+        "3 cloves garlic, minced",
+        "2 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp coarse black pepper",
+        "1 tsp sugar",
+        "50 ml water"
+      ],
+      "langkah_id": [
+        "Keringkan permukaan daging dengan tisu, taburi sedikit garam.",
+        "Panaskan wajan sampai berasap. Panggang dadu daging 45 detik tiap sisi hingga kecokelatan. Angkat, sisihkan.",
+        "Kecilkan api, lelehkan mentega, tumis bawang putih sampai wangi.",
+        "Masukkan kecap asin, saus tiram, lada hitam, gula, dan air. Masak hingga saus mengental.",
+        "Kembalikan daging ke wajan, aduk cepat 30 detik agar terbalut saus. Sajikan panas."
+      ],
+      "langkah_en": [
+        "Pat the beef dry with paper towel and season lightly with salt.",
+        "Heat a pan until smoking. Sear the cubes 45 seconds per side until browned. Remove and set aside.",
+        "Lower the heat, melt the butter, saute the garlic until fragrant.",
+        "Add soy sauce, oyster sauce, black pepper, sugar and water. Simmer until the sauce thickens.",
+        "Return the beef, toss quickly for 30 seconds to coat. Serve hot."
+      ]
+    },
+    {
+      "slug": "semur-daging-brisket",
+      "produk_slug": "bzl-beef-brisket",
+      "kategori_slug": "beef",
+      "waktu": 120,
+      "porsi": "6",
+      "tingkat_id": "Sedang",
+      "tingkat_en": "Medium",
+      "nama_id": "Semur Daging Brisket",
+      "nama_en": "Beef Brisket Semur",
+      "ringkas_id": "Brisket empuk dimasak perlahan dalam kuah kecap manis berrempah, cocok untuk nasi hangat.",
+      "ringkas_en": "Brisket slow-cooked until tender in a spiced sweet soy broth, made for a plate of warm rice.",
+      "bahan_id": [
+        "1 kg BZL Beef Brisket, potong kotak 4 cm",
+        "6 sdm kecap manis",
+        "1 buah bawang bombai, iris",
+        "5 siung bawang putih, haluskan",
+        "8 butir bawang merah, haluskan",
+        "2 cm jahe, memarkan",
+        "3 butir cengkih, 1 batang kayu manis, 1/2 buah pala",
+        "2 butir kemiri, sangrai",
+        "1 liter air",
+        "Garam dan gula secukupnya"
+      ],
+      "bahan_en": [
+        "1 kg BZL Beef Brisket, cut into 4 cm cubes",
+        "6 tbsp sweet soy sauce",
+        "1 onion, sliced",
+        "5 cloves garlic, ground",
+        "8 shallots, ground",
+        "2 cm ginger, bruised",
+        "3 cloves, 1 cinnamon stick, 1/2 nutmeg",
+        "2 candlenuts, toasted",
+        "1 litre water",
+        "Salt and sugar to taste"
+      ],
+      "langkah_id": [
+        "Rebus brisket dalam air mendidih 10 menit, buang busanya, tiriskan.",
+        "Tumis bumbu halus, bawang bombai, dan jahe hingga harum dan matang.",
+        "Masukkan cengkih, kayu manis, dan pala. Aduk 1 menit.",
+        "Masukkan daging, aduk rata, tuang kecap manis dan air.",
+        "Masak dengan api kecil tertutup 1,5 - 2 jam sampai daging empuk dan kuah menyusut. Cicipi, sesuaikan garam dan gula."
+      ],
+      "langkah_en": [
+        "Boil the brisket in water for 10 minutes, skim the foam, drain.",
+        "Saute the ground spice paste, onion and ginger until fragrant and cooked.",
+        "Add cloves, cinnamon and nutmeg. Stir for 1 minute.",
+        "Add the beef, stir to coat, pour in the sweet soy sauce and water.",
+        "Cover and simmer on low for 1.5 - 2 hours until the beef is tender and the sauce reduces. Adjust salt and sugar."
+      ]
+    },
+    {
+      "slug": "striploin-panggang-wajan",
+      "produk_slug": "aust-striploin",
+      "kategori_slug": "beef",
+      "waktu": 25,
+      "porsi": "2",
+      "tingkat_id": "Sedang",
+      "tingkat_en": "Medium",
+      "nama_id": "Striploin Panggang Wajan",
+      "nama_en": "Pan-Seared Striploin",
+      "ringkas_id": "Steak striploin Australia dengan kerak cokelat, mentega bawang putih, dan istirahat yang cukup.",
+      "ringkas_en": "Australian striploin steak with a brown crust, garlic butter, and a proper rest.",
+      "bahan_id": [
+        "2 potong Aust Striploin, tebal 2,5 cm",
+        "1 sdm minyak sayur",
+        "2 sdm mentega",
+        "3 siung bawang putih, memarkan",
+        "2 tangkai timi atau rosemary",
+        "Garam kasar dan lada hitam"
+      ],
+      "bahan_en": [
+        "2 Aust Striploin steaks, 2.5 cm thick",
+        "1 tbsp vegetable oil",
+        "2 tbsp butter",
+        "3 cloves garlic, bruised",
+        "2 sprigs thyme or rosemary",
+        "Coarse salt and black pepper"
+      ],
+      "langkah_id": [
+        "Diamkan steak di suhu ruang 30 menit. Keringkan, bumbui garam dan lada di kedua sisi.",
+        "Panaskan wajan besi dengan minyak sampai berasap tipis.",
+        "Panggang steak 2 - 3 menit tanpa digeser sampai berkerak, balik.",
+        "Tambahkan mentega, bawang putih, dan timi. Siram steak dengan mentega leleh 1 - 2 menit sampai tingkat medium.",
+        "Angkat, istirahatkan di atas talenan 5 menit sebelum diiris melawan serat."
+      ],
+      "langkah_en": [
+        "Bring the steaks to room temperature for 30 minutes. Pat dry, season both sides with salt and pepper.",
+        "Heat a cast-iron pan with oil until lightly smoking.",
+        "Sear the steaks 2 - 3 minutes without moving until crusted, then flip.",
+        "Add butter, garlic and thyme. Baste the steaks with the foaming butter for 1 - 2 minutes to medium.",
+        "Rest on a board for 5 minutes before slicing against the grain."
+      ]
+    },
+    {
+      "slug": "iga-bakar-kecap",
+      "produk_slug": "aust-short-ribs-iw-ect-a",
+      "kategori_slug": "bone",
+      "waktu": 150,
+      "porsi": "4",
+      "tingkat_id": "Sedang",
+      "tingkat_en": "Medium",
+      "nama_id": "Iga Bakar Kecap",
+      "nama_en": "Grilled Sweet Soy Short Ribs",
+      "ringkas_id": "Short ribs direbus empuk lalu dibakar dengan olesan kecap manis pedas manis.",
+      "ringkas_en": "Short ribs simmered tender, then grilled with a sweet-and-spicy soy glaze.",
+      "bahan_id": [
+        "1,2 kg Aust Short Ribs",
+        "2 liter air",
+        "3 lembar daun salam, 2 batang serai",
+        "5 siung bawang putih + 8 butir bawang merah, haluskan",
+        "6 sdm kecap manis",
+        "2 sdm saus sambal",
+        "2 sdm margarin, lelehkan",
+        "Garam dan merica"
+      ],
+      "bahan_en": [
+        "1.2 kg Aust Short Ribs",
+        "2 litres water",
+        "3 bay leaves, 2 lemongrass stalks",
+        "5 cloves garlic + 8 shallots, ground",
+        "6 tbsp sweet soy sauce",
+        "2 tbsp chilli sauce",
+        "2 tbsp margarine, melted",
+        "Salt and pepper"
+      ],
+      "langkah_id": [
+        "Rebus short ribs dengan daun salam, serai, dan sedikit garam 1,5 - 2 jam sampai empuk. Tiriskan.",
+        "Tumis bumbu halus sampai matang, masukkan kecap manis dan saus sambal, masak jadi olesan kental.",
+        "Lumuri iga dengan olesan, diamkan 20 menit.",
+        "Bakar di atas bara atau panggangan, olesi margarin dan sisa bumbu, balik tiap 2 menit sampai berkaramel.",
+        "Sajikan dengan sambal kecap dan irisan tomat."
+      ],
+      "langkah_en": [
+        "Simmer the short ribs with bay leaves, lemongrass and a little salt for 1.5 - 2 hours until tender. Drain.",
+        "Saute the ground paste until cooked, add sweet soy and chilli sauce, cook into a thick glaze.",
+        "Coat the ribs with the glaze and leave for 20 minutes.",
+        "Grill over coals or a griddle, brushing with margarine and the remaining glaze, turning every 2 minutes until caramelised.",
+        "Serve with soy-chilli sambal and sliced tomato."
+      ]
+    },
+    {
+      "slug": "udang-windu-bakar-mentega",
+      "produk_slug": "udang-windu-20",
+      "kategori_slug": "seafood",
+      "waktu": 25,
+      "porsi": "3",
+      "tingkat_id": "Mudah",
+      "tingkat_en": "Easy",
+      "nama_id": "Udang Windu Bakar Mentega",
+      "nama_en": "Butter Grilled Tiger Prawns",
+      "ringkas_id": "Udang windu utuh dibakar singkat dengan mentega bawang putih dan perasan jeruk nipis.",
+      "ringkas_en": "Whole tiger prawns grilled quickly with garlic butter and a squeeze of lime.",
+      "bahan_id": [
+        "500 g Udang Windu, belah punggung, buang kotoran",
+        "3 sdm mentega",
+        "4 siung bawang putih, cincang halus",
+        "1 sdm saus tiram",
+        "1 sdt madu",
+        "1 buah jeruk nipis",
+        "Peterseli atau daun bawang cincang",
+        "Garam dan lada"
+      ],
+      "bahan_en": [
+        "500 g tiger prawns, backs split and deveined",
+        "3 tbsp butter",
+        "4 cloves garlic, finely chopped",
+        "1 tbsp oyster sauce",
+        "1 tsp honey",
+        "1 lime",
+        "Chopped parsley or spring onion",
+        "Salt and pepper"
+      ],
+      "langkah_id": [
+        "Lelehkan mentega, tumis bawang putih sampai wangi tapi tidak gosong.",
+        "Masukkan saus tiram, madu, garam, dan lada. Angkat.",
+        "Olesi udang dengan setengah bumbu mentega.",
+        "Bakar di panggangan panas 2 menit tiap sisi sampai berubah oranye dan sedikit gosong di tepi.",
+        "Olesi sisa mentega, perasan jeruk nipis, taburi peterseli. Sajikan langsung."
+      ],
+      "langkah_en": [
+        "Melt the butter, saute the garlic until fragrant but not browned.",
+        "Add oyster sauce, honey, salt and pepper. Remove from heat.",
+        "Brush the prawns with half of the garlic butter.",
+        "Grill over high heat 2 minutes per side until they turn orange with charred edges.",
+        "Brush with the rest of the butter, squeeze over the lime, scatter parsley. Serve at once."
+      ],
+      "foto": "/img/resep/udang-windu-bakar-mentega.webp"
+    },
+    {
+      "slug": "salmon-teriyaki",
+      "produk_slug": "salmon-fillet-skin-on-premium",
+      "kategori_slug": "seafood",
+      "waktu": 20,
+      "porsi": "2",
+      "tingkat_id": "Mudah",
+      "tingkat_en": "Easy",
+      "nama_id": "Salmon Teriyaki",
+      "nama_en": "Teriyaki Salmon",
+      "ringkas_id": "Fillet salmon kulit renyah dengan glasir teriyaki manis gurih buatan sendiri.",
+      "ringkas_en": "Crisp-skinned salmon fillet with a sweet-savoury homemade teriyaki glaze.",
+      "bahan_id": [
+        "2 potong Salmon Fillet Skin On Premium",
+        "3 sdm kecap asin",
+        "2 sdm mirin atau air + 1 sdt cuka",
+        "2 sdm gula",
+        "1 sdt jahe parut",
+        "1 sdt minyak wijen",
+        "1 sdt minyak sayur",
+        "Wijen sangrai dan daun bawang"
+      ],
+      "bahan_en": [
+        "2 Salmon Fillet Skin On Premium portions",
+        "3 tbsp soy sauce",
+        "2 tbsp mirin or water + 1 tsp vinegar",
+        "2 tbsp sugar",
+        "1 tsp grated ginger",
+        "1 tsp sesame oil",
+        "1 tsp vegetable oil",
+        "Toasted sesame and spring onion"
+      ],
+      "langkah_id": [
+        "Campur kecap asin, mirin, gula, dan jahe. Sisihkan.",
+        "Keringkan salmon, bumbui garam tipis. Panaskan minyak, masak sisi kulit 4 menit dengan ditekan ringan sampai renyah.",
+        "Balik, masak 2 menit. Buang minyak berlebih.",
+        "Tuang saus, masak sambil disiram ke atas ikan 1 - 2 menit sampai mengental dan mengilap.",
+        "Angkat, matikan api, tetesi minyak wijen, taburi wijen dan daun bawang."
+      ],
+      "langkah_en": [
+        "Mix soy sauce, mirin, sugar and ginger. Set aside.",
+        "Pat the salmon dry, season lightly with salt. Heat the oil, cook skin-side down 4 minutes, pressing gently, until crisp.",
+        "Flip and cook 2 minutes. Pour off excess oil.",
+        "Add the sauce, spooning it over the fish for 1 - 2 minutes until thick and glossy.",
+        "Off the heat, drizzle with sesame oil, scatter sesame seeds and spring onion."
+      ],
+      "foto": "/img/resep/salmon-teriyaki.webp"
+    },
+    {
+      "slug": "cumi-goreng-tepung",
+      "produk_slug": "cumi-ring",
+      "kategori_slug": "seafood",
+      "waktu": 30,
+      "porsi": "4",
+      "tingkat_id": "Mudah",
+      "tingkat_en": "Easy",
+      "nama_id": "Cumi Goreng Tepung",
+      "nama_en": "Crispy Fried Calamari",
+      "ringkas_id": "Cumi ring dibalut tepung berbumbu, digoreng renyah, disajikan dengan mayo jeruk nipis.",
+      "ringkas_en": "Squid rings in seasoned flour, fried crisp, served with a lime mayo dip.",
+      "bahan_id": [
+        "400 g Cumi Ring, tiriskan kering",
+        "120 g tepung terigu",
+        "40 g tepung maizena",
+        "1 sdt garam, 1/2 sdt lada putih, 1/2 sdt bawang putih bubuk",
+        "1 butir telur + 100 ml air es",
+        "Minyak untuk menggoreng",
+        "4 sdm mayones + perasan 1/2 jeruk nipis untuk cocolan"
+      ],
+      "bahan_en": [
+        "400 g squid rings, drained dry",
+        "120 g plain flour",
+        "40 g cornstarch",
+        "1 tsp salt, 1/2 tsp white pepper, 1/2 tsp garlic powder",
+        "1 egg + 100 ml iced water",
+        "Oil for frying",
+        "4 tbsp mayonnaise + juice of 1/2 lime for the dip"
+      ],
+      "langkah_id": [
+        "Campur tepung terigu, maizena, garam, lada, dan bawang putih bubuk.",
+        "Kocok telur dengan air es. Celup cumi ke adonan basah, gulingkan ke campuran tepung kering.",
+        "Panaskan minyak 180°C. Goreng cumi sebentar, 1,5 - 2 menit, sampai keemasan. Jangan berlebihan agar tidak alot.",
+        "Tiriskan di atas rak kawat.",
+        "Aduk mayones dengan jeruk nipis. Sajikan cumi selagi panas dengan cocolan."
+      ],
+      "langkah_en": [
+        "Mix the flour, cornstarch, salt, pepper and garlic powder.",
+        "Whisk the egg with iced water. Dip the squid in the wet batter, then toss in the dry flour mix.",
+        "Heat oil to 180°C. Fry the squid briefly, 1.5 - 2 minutes, until golden. Do not overcook or it turns rubbery.",
+        "Drain on a wire rack.",
+        "Stir the mayonnaise with lime juice. Serve the calamari hot with the dip."
+      ],
+      "foto": "/img/resep/cumi-goreng-tepung.webp"
+    },
+    {
+      "slug": "tuna-steak-lada-hitam",
+      "produk_slug": "tuna-steak-vacum-pack-180-250-gr",
+      "kategori_slug": "seafood",
+      "waktu": 15,
+      "porsi": "2",
+      "tingkat_id": "Mudah",
+      "tingkat_en": "Easy",
+      "nama_id": "Tuna Steak Lada Hitam",
+      "nama_en": "Black Pepper Tuna Steak",
+      "ringkas_id": "Tuna steak dipanggang sebentar, bagian tengah tetap merah muda, dilapisi lada hitam pecah.",
+      "ringkas_en": "Tuna steak seared briefly, pink in the middle, crusted with cracked black pepper.",
+      "bahan_id": [
+        "2 potong Tuna Steak Vacuum Pack",
+        "1 sdm lada hitam pecah kasar",
+        "1 sdt garam laut",
+        "1 sdm minyak zaitun",
+        "1 sdt minyak wijen",
+        "1 sdm kecap asin",
+        "1 sdt perasan jeruk lemon"
+      ],
+      "bahan_en": [
+        "2 Tuna Steak Vacuum Pack portions",
+        "1 tbsp coarsely cracked black pepper",
+        "1 tsp sea salt",
+        "1 tbsp olive oil",
+        "1 tsp sesame oil",
+        "1 tbsp soy sauce",
+        "1 tsp lemon juice"
+      ],
+      "langkah_id": [
+        "Cairkan tuna di kulkas semalam, keringkan betul dengan tisu.",
+        "Tekan garam dan lada hitam ke seluruh permukaan tuna.",
+        "Panaskan wajan dengan minyak zaitun sampai sangat panas.",
+        "Panggang tuna 60 - 90 detik tiap sisi, tepi matang, tengah masih merah muda.",
+        "Iris tebal 1 cm. Siram campuran kecap asin, minyak wijen, dan lemon."
+      ],
+      "langkah_en": [
+        "Thaw the tuna in the fridge overnight, pat very dry with paper towel.",
+        "Press the salt and black pepper over the entire surface.",
+        "Heat a pan with olive oil until very hot.",
+        "Sear the tuna 60 - 90 seconds per side, edges cooked, centre still pink.",
+        "Slice 1 cm thick. Drizzle with the mix of soy sauce, sesame oil and lemon."
+      ],
+      "foto": "/img/resep/tuna-steak-lada-hitam.webp"
+    },
+    {
+      "slug": "scallop-mentega-bawang-putih",
+      "produk_slug": "scallop-import-10-20-2-27kg",
+      "kategori_slug": "seafood",
+      "waktu": 15,
+      "porsi": "2",
+      "tingkat_id": "Sedang",
+      "tingkat_en": "Medium",
+      "nama_id": "Scallop Mentega Bawang Putih",
+      "nama_en": "Garlic Butter Scallops",
+      "ringkas_id": "Scallop impor dengan kerak keemasan dan saus mentega bawang putih lemon yang ringan.",
+      "ringkas_en": "Imported scallops with a golden crust and a light lemon garlic butter sauce.",
+      "bahan_id": [
+        "10 - 12 butir Scallop Import, cairkan dan keringkan",
+        "2 sdm mentega + 1 sdm minyak",
+        "3 siung bawang putih, cincang",
+        "2 sdm air perasan lemon",
+        "1 sdm peterseli cincang",
+        "Garam dan lada"
+      ],
+      "bahan_en": [
+        "10 - 12 imported scallops, thawed and dried",
+        "2 tbsp butter + 1 tbsp oil",
+        "3 cloves garlic, chopped",
+        "2 tbsp lemon juice",
+        "1 tbsp chopped parsley",
+        "Salt and pepper"
+      ],
+      "langkah_id": [
+        "Keringkan scallop sekering mungkin, bumbui garam dan lada.",
+        "Panaskan minyak sampai berasap tipis. Tata scallop tanpa berdesakan.",
+        "Masak 1,5 menit tanpa digeser sampai berkerak keemasan, balik, masak 1 menit. Angkat.",
+        "Kecilkan api, lelehkan mentega, tumis bawang putih 30 detik, tuang lemon.",
+        "Kembalikan scallop, siram saus sebentar, taburi peterseli. Sajikan segera."
+      ],
+      "langkah_en": [
+        "Dry the scallops as much as possible, season with salt and pepper.",
+        "Heat the oil until lightly smoking. Lay the scallops out without crowding.",
+        "Cook 1.5 minutes without moving until golden-crusted, flip, cook 1 minute. Remove.",
+        "Lower the heat, melt the butter, saute the garlic 30 seconds, pour in the lemon.",
+        "Return the scallops, spoon over the sauce briefly, scatter parsley. Serve immediately."
+      ],
+      "foto": "/img/resep/scallop-mentega-bawang-putih.webp"
+    },
+    {
+      "slug": "dori-asam-manis",
+      "produk_slug": "dori-fillet-bl-3-1kg",
+      "kategori_slug": "seafood",
+      "waktu": 35,
+      "porsi": "4",
+      "tingkat_id": "Mudah",
+      "tingkat_en": "Easy",
+      "nama_id": "Dori Fillet Asam Manis",
+      "nama_en": "Sweet and Sour Dori Fillet",
+      "ringkas_id": "Potongan dori goreng renyah disiram saus asam manis dengan paprika dan nanas.",
+      "ringkas_en": "Crispy fried dori pieces coated in a sweet and sour sauce with bell pepper and pineapple.",
+      "bahan_id": [
+        "500 g Dori Fillet BL, potong dadu besar",
+        "80 g tepung bumbu serba guna + 2 sdm maizena",
+        "Minyak untuk menggoreng",
+        "1/2 paprika merah dan 1/2 paprika hijau, potong kotak",
+        "6 potong nanas, 1/2 bawang bombai",
+        "4 sdm saus tomat, 2 sdm saus sambal, 1 sdm cuka, 2 sdm gula, 150 ml air",
+        "1 sdt maizena + 2 sdm air untuk pengental"
+      ],
+      "bahan_en": [
+        "500 g Dori Fillet BL, cut into large cubes",
+        "80 g all-purpose seasoned flour + 2 tbsp cornstarch",
+        "Oil for frying",
+        "1/2 red and 1/2 green bell pepper, diced",
+        "6 pineapple chunks, 1/2 onion",
+        "4 tbsp tomato sauce, 2 tbsp chilli sauce, 1 tbsp vinegar, 2 tbsp sugar, 150 ml water",
+        "1 tsp cornstarch + 2 tbsp water to thicken"
+      ],
+      "langkah_id": [
+        "Balut dori dengan campuran tepung bumbu dan maizena.",
+        "Goreng dalam minyak panas sampai keemasan dan renyah, tiriskan.",
+        "Tumis bawang bombai sampai layu, masukkan paprika dan nanas, aduk 1 menit.",
+        "Tuang saus tomat, saus sambal, cuka, gula, dan air. Didihkan, kentalkan dengan larutan maizena.",
+        "Masukkan dori goreng, aduk cepat agar terbalut saus. Segera angkat supaya tetap renyah."
+      ],
+      "langkah_en": [
+        "Coat the dori in the seasoned flour and cornstarch mix.",
+        "Fry in hot oil until golden and crisp, drain.",
+        "Saute the onion until softened, add the bell pepper and pineapple, stir for 1 minute.",
+        "Pour in tomato sauce, chilli sauce, vinegar, sugar and water. Bring to a boil, thicken with the cornstarch slurry.",
+        "Add the fried dori, toss quickly to coat. Remove at once so it stays crisp."
+      ],
+      "foto": "/img/resep/dori-asam-manis.webp"
+    }
+  ]
+}
