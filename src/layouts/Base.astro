@@ -44,9 +44,8 @@ const katUtama = katalog.kategori.slice(0, 6);
 
 <div class="topbar">
   <div class="inner">
-    <span><Ico name="pin" size={15} /> {site.alamat}</span>
-    <span><Ico name="clock" size={15} /> {site.jam}</span>
-    <span><a href={tel}><Ico name="phone" size={15} /> {site.telepon}</a></span>
+    <span><Ico name="phone" size={15} /> <a href={tel}>{site.telepon}</a></span>
+    <span><Ico name="pin" size={15} /> {site.alamat_pendek}</span>
   </div>
 </div>
 
