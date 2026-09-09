@@ -39,6 +39,29 @@
     });
   });
 
+  // --- seksi & isinya muncul berurutan saat digulir ---
+  if (!kurangGerak && 'IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (masuk, obs) {
+      masuk.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.__anak.forEach(function (el, i) {
+          el.style.transitionDelay = Math.min(i, 6) * 80 + 'ms';
+          el.classList.add('is-in');
+        });
+        obs.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -10% 0px' });
+
+    document.querySelectorAll('main .section').forEach(function (sec) {
+      var wadah = sec.querySelector('.inner') || sec;
+      var anak = Array.prototype.slice.call(wadah.children);
+      if (!anak.length) anak = [sec];
+      anak.forEach(function (el) { el.classList.add('will-reveal'); });
+      sec.__anak = anak;
+      io.observe(sec);
+    });
+  }
+
   // --- kartu muncul berurutan saat halaman dimuat ---
   if (!kurangGerak) {
     document.querySelectorAll('.grid > .card').forEach(function (kartu, i) {
