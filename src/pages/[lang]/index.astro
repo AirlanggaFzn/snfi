@@ -13,7 +13,6 @@ const produk = katalog.produk;
 const kategori = katalog.kategori;
 const berfoto = produk.filter((p) => p.foto.length);
 const unggulan = berfoto.slice(0, 12);
-const heroFoto = berfoto[2];
 const bandFoto = berfoto[6];
 const aboutFoto = berfoto[0];
 const alt = alternates();
@@ -62,7 +61,7 @@ const rantai = [1, 2, 3, 4];
         </div>
       </div>
       <div class="shot">
-        <img src={heroFoto.foto[0]} alt={nama(heroFoto, lang)} width="800" height="800" fetchpriority="high" />
+        <img src="/hero-produk.png" alt={t(lang, 'hero.h1') + ' ' + t(lang, 'hero.h1.em')} width="1536" height="1024" fetchpriority="high" />
         <div class="badge">
           <b data-hitung={produk.length}>{produk.length}</b>
           <small>{t(lang, 'hero.badge.t')}</small>
