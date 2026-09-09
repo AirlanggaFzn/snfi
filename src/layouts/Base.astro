@@ -1,0 +1,118 @@
+---
+import Ico from '../components/Ico.astro';
+import { site, katalog, t, path, langs, waLink } from '../lib/site.js';
+const { lang, title, description, alt, jsonld, aktif } = Astro.props;
+const url = new URL(Astro.url.pathname, site.url).href;
+const abs = (p) => new URL(p, site.url).href;
+const tel = `tel:${site.telepon.replace(/[^+\d]/g, '')}`;
+const nav = [
+  ['nav.home', path(lang), null],
+  ['nav.catalog', path(lang, 'katalog'), 'katalog'],
+  ['nav.about', path(lang, 'tentang'), 'tentang'],
+  ['nav.contact', path(lang, 'kontak'), 'kontak'],
+];
+const wa = waLink(`${t(lang, 'wa.msg')}\n\n${url}`);
+const katUtama = katalog.kategori.slice(0, 6);
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={url} />
+{alt && langs.map((l) => <link rel="alternate" hreflang={l} href={abs(alt[l])} />)}
+{alt && <link rel="alternate" hreflang="x-default" href={abs(alt.id)} />}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content={site.nama_panjang} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={url} />
+<meta property="og:locale" content={t(lang, 'locale')} />
+<meta property="og:image" content={abs(Astro.props.image ?? '/img/produk/wagyu-meltique-beef-tenderloin.webp')} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#123E5F" />
+<link rel="icon" type="image/png" sizes="32x32" href="/icon-32.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/icon-180.png" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="/assets/style.css" />
+{jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+</head>
+<body>
+
+<div class="topbar">
+  <div class="inner">
+    <span><Ico name="pin" size={15} /> {site.alamat}</span>
+    <span><Ico name="clock" size={15} /> {site.jam}</span>
+    <span><a href={tel}><Ico name="phone" size={15} /> {site.telepon}</a></span>
+  </div>
+</div>
+
+<header class="top">
+  <div class="row">
+    <a class="brand" href={path(lang)} aria-label={site.nama_panjang}>
+      <img src="/logo-teks.webp" alt={site.nama_panjang} width="711" height="544" />
+    </a>
+    <nav class="nav">
+      {nav.map(([key, href, id]) => (
+        <a href={href} aria-current={aktif === id ? 'page' : undefined}>{t(lang, key)}</a>
+      ))}
+    </nav>
+    <div class="lang">
+      {langs.map((l) => (
+        <a href={alt ? alt[l] : path(l)} hreflang={l} lang={l}
+           aria-current={l === lang ? 'true' : undefined}>{l.toUpperCase()}</a>
+      ))}
+    </div>
+    <a class="btn btn-pill" href={wa} rel="noopener"><Ico name="chat" size={17} /> {t(lang, 'prod.ask')}</a>
+  </div>
+</header>
+
+<main><slot /></main>
+
+<footer class="foot">
+  <div class="inner">
+    <div class="cols">
+      <div>
+        <img class="logo-foot" src="/logo-teks-putih.webp" alt={site.nama_panjang}
+             width="711" height="544" loading="lazy" />
+        <p style="margin-top:16px;font-size:14px;max-width:34ch">{t(lang, 'foot.desc')}</p>
+      </div>
+      <div>
+        <h4>{t(lang, 'foot.links')}</h4>
+        <ul>{nav.map(([key, href]) => <li><a href={href}>{t(lang, key)}</a></li>)}</ul>
+      </div>
+      <div>
+        <h4>{t(lang, 'foot.kategori')}</h4>
+        <ul>
+          {katUtama.map((k) => (
+            <li><a href={`${path(lang, 'katalog')}?kategori=${k.slug}`}>{k[lang]}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h4>{t(lang, 'foot.kontak')}</h4>
+        <ul>
+          <li><a href={tel}>{site.telepon}</a></li>
+          <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
+          <li>{site.alamat}</li>
+        </ul>
+        <div class="cta-box" style="margin-top:16px">
+          <b style="color:#fff">{t(lang, 'foot.cta.title')}</b>
+          <span style="font-size:13.5px">{t(lang, 'foot.cta.desc')}</span>
+          <a class="btn btn-accent btn-wide" href={wa} rel="noopener">{t(lang, 'cta.ask')}</a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© {new Date().getFullYear()} {site.nama_panjang}. {t(lang, 'foot.rights')}</span>
+      <span>{t(lang, 'top.tag')}</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+---
+const { eyebrow, label, more, moreHref, auto = false, kelas = '' } = Astro.props;
+---
+<div class="rail" data-rail>
+  <div class="rail-head">
+    <div>
+      {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+      <h2 style="margin-top:6px">{label}</h2>
+    </div>
+    <div style="display:flex;align-items:center;gap:18px">
+      {more && <a class="link-more" href={moreHref}>{more} &#8594;</a>}
+      <div class="arrows">
+        <button type="button" data-prev aria-label="Sebelumnya / Previous">&#8592;</button>
+        <button type="button" data-next aria-label="Berikutnya / Next">&#8594;</button>
+      </div>
+    </div>
+  </div>
+  <div class={`carousel ${kelas}`} role="region" aria-label={label} tabindex="0"
+       data-auto={auto ? '' : undefined}>
+    <slot />
+  </div>
+</div>

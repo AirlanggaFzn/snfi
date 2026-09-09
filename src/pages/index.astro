@@ -1,0 +1,18 @@
+---
+// Pengunjung tanpa bahasa dialihkan ke /id/ ; hreflang di halaman bahasa yang mengurus SEO.
+---
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="refresh" content="0; url=/id/" />
+<link rel="canonical" href="/id/" />
+<meta name="robots" content="noindex" />
+<title>SNFI Frozen Food</title>
+<script is:inline>
+  var l = (localStorage.getItem('snfi-lang') || navigator.language || 'id').slice(0, 2);
+  location.replace(l === 'en' ? '/en/' : '/id/');
+</script>
+</head>
+<body><p><a href="/id/">Bahasa Indonesia</a> · <a href="/en/">English</a></p></body>
+</html>

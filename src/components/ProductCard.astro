@@ -1,0 +1,25 @@
+---
+import { path, nama, kategoriDari, t } from '../lib/site.js';
+const { p, lang } = Astro.props;
+const kat = kategoriDari(p.kategori_slug);
+const judul = nama(p, lang);
+const cari = [p.nama_id, p.nama_en, p.sku, kat.id, kat.en, ...p.nama_asli].join(' ').toLowerCase();
+const ukuran = p.varian.map((v) => v.ukuran).filter(Boolean);
+const meta = [p.asal,
+  ukuran.length > 1 ? `${ukuran.length} ${lang === 'en' ? 'sizes' : 'ukuran'}` : ukuran[0]
+].filter(Boolean).join(' · ');
+---
+<a class="card" href={path(lang, 'produk', p.slug)} data-kategori={p.kategori_slug} data-cari={cari}>
+  {p.foto.length
+    ? <img src={p.foto[0]} alt={judul} width="800" height="800" loading="lazy" decoding="async" />
+    : <div class="ph" aria-hidden="true">{kat[lang]}</div>}
+  <div class="body">
+    <span class="chip">{kat[lang]}</span>
+    <h3>{judul}</h3>
+    <p class="meta">{meta || p.sku}</p>
+    <div class="foot-row">
+      <span class="ask">{t(lang, 'prod.ask')}</span>
+      <span class="plus" aria-hidden="true">&#43;</span>
+    </div>
+  </div>
+</a>

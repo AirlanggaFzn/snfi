@@ -1,0 +1,185 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import Rail from '../../components/Rail.astro';
+import Ico from '../../components/Ico.astro';
+import { katalog, site, t, path, langs, alternates, nama, waLink } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params;
+const produk = katalog.produk;
+const kategori = katalog.kategori;
+const berfoto = produk.filter((p) => p.foto.length);
+const unggulan = berfoto.slice(0, 12);
+const heroFoto = berfoto[2];
+const bandFoto = berfoto[6];
+const aboutFoto = berfoto[0];
+const alt = alternates();
+const wa = waLink(`${t(lang, 'wa.msg')}\n\n${site.url}/${lang}/`);
+const tel = `tel:${site.telepon.replace(/[^+\d]/g, '')}`;
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: site.nama_panjang,
+  url: new URL(`/${lang}/`, site.url).href,
+  telephone: site.telepon,
+  email: site.email,
+  address: { '@type': 'PostalAddress', streetAddress: site.alamat, addressCountry: 'ID' },
+  openingHours: 'Mo-Sa 08:00-17:00',
+  areaServed: 'Jabodetabek',
+  description: t(lang, 'hero.desc'),
+};
+const fitur = [['snow', 1], ['check', 2], ['truck', 3]];
+const aboutFitur = [['star', 1], ['temp', 2], ['cut', 3]];
+const strip = [['truck', 1], ['box', 2], ['star', 3], ['chat', 4]];
+const rantai = [1, 2, 3, 4];
+---
+<Base {lang} {alt} aktif={null}
+      title={`${site.nama_panjang} — ${t(lang, 'hero.title')}`}
+      description={t(lang, 'hero.desc')} jsonld={jsonld}>
+
+  <!-- hero -->
+  <section class="hero">
+    <div class="inner">
+      <div>
+        <p class="eyebrow">{t(lang, 'hero.eyebrow')}</p>
+        <h1>{t(lang, 'hero.h1')} <em>{t(lang, 'hero.h1.em')}</em></h1>
+        <p class="lead">{t(lang, 'hero.desc')}</p>
+        <div class="acts">
+          <a class="btn" href={path(lang, 'katalog')}>{t(lang, 'hero.cta1')} &#8594;</a>
+          <a class="btn btn-line" href={path(lang, 'kontak')}>{t(lang, 'hero.cta2')}</a>
+        </div>
+        <div class="feats">
+          {fitur.map(([ico, n]) => (
+            <div class="feat">
+              <span class="ico" style="color:var(--blue)"><Ico name={ico} /></span>
+              <span><b>{t(lang, `feat.${n}.t`)}</b><small>{t(lang, `feat.${n}.d`)}</small></span>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div class="shot">
+        <img src={heroFoto.foto[0]} alt={nama(heroFoto, lang)} width="800" height="800" fetchpriority="high" />
+        <div class="badge">
+          <b data-hitung={produk.length}>{produk.length}</b>
+          <small>{t(lang, 'hero.badge.t')}</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- tentang singkat -->
+  <section class="section alt">
+    <div class="inner about">
+      <div class="about-shot">
+        <img src={aboutFoto.foto[0]} alt={nama(aboutFoto, lang)} width="800" height="800" loading="lazy" />
+        <div class="tag-exp">
+          <b>{t(lang, 'about.exp.n')}</b>
+          <small>{t(lang, 'about.exp.t')}</small>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow">{t(lang, 'about.eyebrow')}</p>
+        <h2 style="margin:10px 0 14px">{t(lang, 'about.title')} <em>{t(lang, 'about.title.em')}</em></h2>
+        <p class="lead">{t(lang, 'hero.desc')}</p>
+        <ul class="about-list">
+          {aboutFitur.map(([ico, n]) => (
+            <li>
+              <span class="ico" style="color:var(--blue)"><Ico name={ico} /></span>
+              <span><b>{t(lang, `about.f${n}.t`)}</b><br /><small style="color:var(--ink-soft)">{t(lang, `about.f${n}.d`)}</small></span>
+            </li>
+          ))}
+        </ul>
+        <a class="btn" href={path(lang, 'tentang')}>{t(lang, 'about.cta')} &#8594;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- kategori -->
+  <section class="section">
+    <div class="inner">
+      <Rail eyebrow={t(lang, 'sec.kategori.eyebrow')} label={t(lang, 'sec.kategori')}
+            more={t(lang, 'sec.viewall')} moreHref={path(lang, 'katalog')} auto kelas="kat">
+        {kategori.map((k) => (
+          <a class="katcard" href={`${path(lang, 'katalog')}?kategori=${k.slug}`}>
+            <p class="eyebrow">{k.jumlah} {lang === 'en' ? 'items' : 'produk'}</p>
+            <p class="n">{k[lang]}</p>
+          </a>
+        ))}
+      </Rail>
+    </div>
+  </section>
+
+  <!-- produk unggulan -->
+  <section class="section alt">
+    <div class="inner">
+      <div class="head-c">
+        <p class="eyebrow">{t(lang, 'sec.unggulan.eyebrow')}</p>
+        <h2 class="orn">{t(lang, 'sec.unggulan')}</h2>
+      </div>
+      <div class="grid">
+        {unggulan.slice(0, 8).map((p) => <ProductCard {p} {lang} />)}
+      </div>
+      <p style="text-align:center;margin-top:30px">
+        <a class="btn" href={path(lang, 'katalog')}>{t(lang, 'sec.viewall')} &#8594;</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- pita ajakan -->
+  <section class="section">
+    <div class="inner">
+      <div class="band">
+        <div class="txt">
+          <p class="eyebrow">{t(lang, 'band.eyebrow')}</p>
+          <h2>{t(lang, 'band.title')}</h2>
+          <p>{t(lang, 'band.desc')}</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn btn-accent" href={wa} rel="noopener"><Ico name="chat" size={17} /> {t(lang, 'cta.ask')}</a>
+            <a class="btn btn-line" href={tel}>{site.telepon}</a>
+          </div>
+        </div>
+        <div class="band-shot">
+          <img src={bandFoto.foto[0]} alt={nama(bandFoto, lang)} width="800" height="800" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- alur rantai dingin -->
+  <section class="section alt">
+    <div class="inner">
+      <div class="head-c">
+        <p class="eyebrow">{t(lang, 'sec.rantai')}</p>
+        <h2 class="orn">{t(lang, 'sec.rantai')}</h2>
+      </div>
+      <div class="info-grid">
+        {rantai.map((n) => (
+          <div class="info-card">
+            <span class="eyebrow">0{n}</span>
+            <h3>{t(lang, `rantai.${n}.t`)}</h3>
+            <p style="font-size:14.5px;color:var(--ink-soft)">{t(lang, `rantai.${n}.d`)}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- strip layanan -->
+  <section class="section" style="padding-top:0">
+    <div class="inner">
+      <div class="strip">
+        {strip.map(([ico, n]) => (
+          <div>
+            <span class="ico" style="color:var(--blue)"><Ico name={ico} /></span>
+            <span><b style="font-size:14.5px">{t(lang, `strip.${n}.t`)}</b><br />
+              <small style="color:var(--ink-soft)">{t(lang, `strip.${n}.d`)}</small></span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

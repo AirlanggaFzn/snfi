@@ -1,0 +1,158 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import Ico from '../../components/Ico.astro';
+import { katalog, site, t, path, langs, alternates, ROUTE, waLink, nama } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  const halaman = ['katalog', 'tentang', 'kontak'];
+  return langs.flatMap((lang) =>
+    halaman.map((kunci) => ({ params: { lang, page: ROUTE[kunci][lang] }, props: { kunci } }))
+  );
+}
+const { lang } = Astro.params;
+const { kunci } = Astro.props;
+const alt = alternates(kunci);
+const produk = katalog.produk;
+const judul = { katalog: t(lang, 'cat.title'), tentang: t(lang, 'about.title') + ' ' + t(lang, 'about.title.em'), kontak: t(lang, 'contact.title') }[kunci];
+const deskripsi = { katalog: t(lang, 'cat.desc'), tentang: t(lang, 'hero.desc'), kontak: t(lang, 'contact.desc') }[kunci];
+const wa = waLink(`${t(lang, 'wa.msg')}\n\n${site.url}/${lang}/`);
+const tel = `tel:${site.telepon.replace(/[^+\d]/g, '')}`;
+const aboutFoto = produk.find((p) => p.foto.length);
+const aboutFitur = [['star', 1], ['temp', 2], ['cut', 3]];
+---
+<Base {lang} {alt} aktif={kunci} title={`${judul} — ${site.nama_panjang}`} description={deskripsi}>
+
+  {kunci === 'katalog' && (
+    <>
+      <section class="section" style="padding-bottom:26px">
+        <div class="inner head-c">
+          <p class="eyebrow">{site.nama} — {t(lang, 'nav.catalog')}</p>
+          <h1 class="orn">{t(lang, 'cat.title')}</h1>
+          <p class="lead" style="text-align:center">{deskripsi}</p>
+        </div>
+        <div class="inner" style="display:flex;flex-direction:column;gap:18px;margin-top:26px">
+          <input id="cari" class="search" type="search" data-cari
+                 aria-label={t(lang, 'cat.search')}
+                 placeholder={t(lang, 'cat.search')} autocomplete="off" />
+          <div class="filters">
+            {katalog.kategori.map((k) => (
+              <button type="button" data-kategori={k.slug} aria-pressed="false">
+                {k[lang]} ({k.jumlah})
+              </button>
+            ))}
+          </div>
+          <p class="count" data-jumlah data-pola={t(lang, 'cat.count')}>
+            {t(lang, 'cat.count', { n: produk.length })}
+          </p>
+        </div>
+      </section>
+      <section class="section" style="padding-top:8px">
+        <div class="inner">
+          <div class="grid" data-katalog>
+            {produk.map((p) => <ProductCard {p} {lang} />)}
+          </div>
+          <p style="text-align:center;margin-top:34px">
+            <button type="button" class="btn" data-lagi
+                    data-label={t(lang, 'cat.more')} data-sisa={t(lang, 'cat.more.sisa')}>
+              {t(lang, 'cat.more')}
+            </button>
+          </p>
+        </div>
+      </section>
+    </>
+  )}
+
+  {kunci === 'tentang' && (
+    <>
+      <section class="section">
+        <div class="inner about">
+          <div class="about-shot">
+            <img src={aboutFoto.foto[0]} alt={nama(aboutFoto, lang)} width="800" height="800" />
+            <div class="tag-exp">
+              <b>{t(lang, 'about.exp.n')}</b><small>{t(lang, 'about.exp.t')}</small>
+            </div>
+          </div>
+          <div>
+            <p class="eyebrow">{t(lang, 'about.eyebrow')}</p>
+            <h1 style="margin:10px 0 16px;font-size:clamp(28px,4vw,48px)">
+              {t(lang, 'about.title')} <em>{t(lang, 'about.title.em')}</em>
+            </h1>
+            <div class="prose">
+              <p>{t(lang, 'hero.desc')}</p>
+              <p>{lang === 'en'
+                ? `SNFI supplies ${produk.length} frozen products across ${katalog.kategori.length} categories — beef, Indian buffalo, chicken, duck, goat, seafood, offal, frozen fruit and vegetables — sourced from Australia, Brazil, India and certified local suppliers.`
+                : `SNFI menyediakan ${produk.length} produk beku dalam ${katalog.kategori.length} kategori — daging sapi, kerbau India, ayam, bebek, kambing, hasil laut, jeroan, buah dan sayuran beku — dari Australia, Brasil, India, serta pemasok lokal bersertifikat.`}</p>
+              <p>{lang === 'en'
+                ? 'Every item is stored at -18°C in monitored cold storage, portioned to order, and delivered by refrigerated fleet. Pricing follows volume and the daily market, so we quote on request rather than publishing a fixed list.'
+                : 'Semua produk disimpan pada suhu -18°C di cold storage terpantau, diporsikan sesuai permintaan, dan dikirim dengan armada berpendingin. Harga mengikuti volume dan pasar harian, jadi kami memberikan penawaran saat Anda bertanya, bukan daftar harga tetap.'}</p>
+            </div>
+            <ul class="about-list">
+              {aboutFitur.map(([ico, n]) => (
+                <li>
+                  <span class="ico" style="color:var(--blue)"><Ico name={ico} /></span>
+                  <span><b>{t(lang, `about.f${n}.t`)}</b><br />
+                    <small style="color:var(--ink-soft)">{t(lang, `about.f${n}.d`)}</small></span>
+                </li>
+              ))}
+            </ul>
+            <a class="btn" href={path(lang, 'katalog')}>{t(lang, 'sec.viewall')} &#8594;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="inner">
+          <div class="head-c">
+            <p class="eyebrow">{t(lang, 'sec.rantai')}</p>
+            <h2 class="orn">{t(lang, 'sec.rantai')}</h2>
+          </div>
+          <div class="info-grid">
+            {[1, 2, 3, 4].map((n) => (
+              <div class="info-card">
+                <span class="eyebrow">0{n}</span>
+                <h3>{t(lang, `rantai.${n}.t`)}</h3>
+                <p style="font-size:14.5px;color:var(--ink-soft)">{t(lang, `rantai.${n}.d`)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  )}
+
+  {kunci === 'kontak' && (
+    <section class="section">
+      <div class="inner head-c">
+        <p class="eyebrow">{site.nama_panjang}</p>
+        <h1 class="orn">{t(lang, 'contact.title')}</h1>
+        <p class="lead" style="text-align:center">{deskripsi}</p>
+      </div>
+      <div class="inner info-grid" style="margin-top:34px">
+        <div class="info-card">
+          <span class="ico" style="color:var(--blue)"><Ico name="chat" /></span>
+          <h3>WhatsApp</h3>
+          <p style="color:var(--ink-soft);font-size:14.5px">{t(lang, 'cta.desc')}</p>
+          <a class="btn btn-wide" href={wa} rel="noopener" style="margin-top:8px">{t(lang, 'cta.ask')}</a>
+        </div>
+        <div class="info-card">
+          <span class="ico" style="color:var(--blue)"><Ico name="phone" /></span>
+          <h3>{t(lang, 'prod.phone')}</h3>
+          <p><a href={tel} style="text-decoration:none;font-weight:600">{site.telepon}</a></p>
+          <p style="color:var(--ink-soft);font-size:14.5px">{site.jam}</p>
+        </div>
+        <div class="info-card">
+          <span class="ico" style="color:var(--blue)"><Ico name="mail" /></span>
+          <h3>{t(lang, 'prod.email')}</h3>
+          <p><a href={`mailto:${site.email}`} style="text-decoration:none;font-weight:600">{site.email}</a></p>
+        </div>
+        <div class="info-card">
+          <span class="ico" style="color:var(--blue)"><Ico name="pin" /></span>
+          <h3>{t(lang, 'contact.addr')}</h3>
+          <p style="color:var(--ink-soft);font-size:14.5px">{site.alamat}</p>
+          <p><a href={site.peta} rel="noopener" class="link-more">{t(lang, 'contact.map')} &#8594;</a></p>
+        </div>
+      </div>
+    </section>
+  )}
+</Base>

@@ -1,0 +1,2567 @@
+{
+ "kategori": [
+  {
+   "kode": "BEEF",
+   "slug": "beef",
+   "id": "Daging Sapi",
+   "en": "Beef",
+   "jumlah": 16
+  },
+  {
+   "kode": "SEAFOOD",
+   "slug": "seafood",
+   "id": "Hasil Laut",
+   "en": "Seafood",
+   "jumlah": 24
+  },
+  {
+   "kode": "CHICKEN",
+   "slug": "chicken",
+   "id": "Ayam",
+   "en": "Chicken",
+   "jumlah": 18
+  },
+  {
+   "kode": "INDIAN BUFFALO",
+   "slug": "kerbau",
+   "id": "Kerbau India",
+   "en": "Indian Buffalo",
+   "jumlah": 11
+  },
+  {
+   "kode": "DUCK",
+   "slug": "duck",
+   "id": "Bebek",
+   "en": "Duck",
+   "jumlah": 9
+  },
+  {
+   "kode": "PRODUKSI",
+   "slug": "olahan",
+   "id": "Olahan SNFI",
+   "en": "SNFI Processed",
+   "jumlah": 10
+  },
+  {
+   "kode": "LAMB",
+   "slug": "lamb",
+   "id": "Kambing",
+   "en": "Goat & Lamb",
+   "jumlah": 4
+  },
+  {
+   "kode": "BONE",
+   "slug": "bone",
+   "id": "Tulang",
+   "en": "Bones",
+   "jumlah": 5
+  },
+  {
+   "kode": "EDIBLE OFFAL",
+   "slug": "offal",
+   "id": "Jeroan",
+   "en": "Edible Offal",
+   "jumlah": 5
+  },
+  {
+   "kode": "FROZEN FRUIT",
+   "slug": "fruit",
+   "id": "Buah Beku",
+   "en": "Frozen Fruit",
+   "jumlah": 7
+  },
+  {
+   "kode": "VEGETABLE",
+   "slug": "vegetable",
+   "id": "Sayuran",
+   "en": "Vegetables",
+   "jumlah": 5
+  },
+  {
+   "kode": "SURABAJA",
+   "slug": "bakso",
+   "id": "Bakso Surabaja",
+   "en": "Surabaja Meatballs",
+   "jumlah": 2
+  },
+  {
+   "kode": "PRODUCT CENTRALPERTIWI",
+   "slug": "laut-olahan",
+   "id": "Produk Laut Olahan",
+   "en": "Processed Seafood",
+   "jumlah": 2
+  },
+  {
+   "kode": "AYAM PEJANTAN",
+   "slug": "pejantan",
+   "id": "Ayam Pejantan",
+   "en": "Rooster Chicken",
+   "jumlah": 1
+  }
+ ],
+ "produk": [
+  {
+   "sku": "SNFI-001",
+   "slug": "ayam-pejantan-0-7-0-8",
+   "nama_id": "Ayam Pejantan",
+   "nama_en": "Rooster Chicken",
+   "kategori": "AYAM PEJANTAN",
+   "kategori_slug": "pejantan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "0,7 - 0,8",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM PEJANTAN 0,7 - 0,8"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-002",
+   "slug": "brazil-beef-cuberoll-minerva",
+   "nama_id": "Brazil Beef Cuberoll Minerva",
+   "nama_en": "Brazil Beef Cuberoll Minerva",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Brasil",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/brazil-beef-cuberoll-minerva.webp"
+    }
+   ],
+   "nama_asli": [
+    "BRAZIL BEEF CUBEROLL MINERVA"
+   ],
+   "foto": [
+    "/img/produk/brazil-beef-cuberoll-minerva.webp"
+   ],
+   "_sumber_foto": {
+    "brazil-beef-cuberoll-minerva": "Kumpulan Daging/01 — BRAZIL BEEF CUBEROLL MINERVA.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-003",
+   "slug": "aust-striploin",
+   "nama_id": "Aust Striploin",
+   "nama_en": "Aust Striploin",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/aust-striploin.webp"
+    }
+   ],
+   "nama_asli": [
+    "AUST STRIPLOIN"
+   ],
+   "foto": [
+    "/img/produk/aust-striploin.webp"
+   ],
+   "_sumber_foto": {
+    "aust-striploin": "Kumpulan Daging/02 — AUST STRIPLOIN.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-004",
+   "slug": "wagyu-meltique-beef-tenderloin",
+   "nama_id": "Wagyu Meltique Beef Tenderloin",
+   "nama_en": "Wagyu Meltique Beef Tenderloin",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/wagyu-meltique-beef-tenderloin.webp"
+    }
+   ],
+   "nama_asli": [
+    "WAGYU MELTIQUE BEEF TENDERLOIN"
+   ],
+   "foto": [
+    "/img/produk/wagyu-meltique-beef-tenderloin.webp"
+   ],
+   "_sumber_foto": {
+    "wagyu-meltique-beef-tenderloin": "Kumpulan Daging/03 — WAGYU MELTIQUE BEEF TENDERLOIN.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-005",
+   "slug": "wagyu-meltique-beef-striploin",
+   "nama_id": "Wagyu Meltique Beef Striploin",
+   "nama_en": "Wagyu Meltique Beef Striploin",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/wagyu-meltique-beef-striploin.webp"
+    }
+   ],
+   "nama_asli": [
+    "WAGYU MELTIQUE BEEF STRIPLOIN"
+   ],
+   "foto": [
+    "/img/produk/wagyu-meltique-beef-striploin.webp"
+   ],
+   "_sumber_foto": {
+    "wagyu-meltique-beef-striploin": "Kumpulan Daging/04 — WAGYU MELTIQUE BEEF STRIPLOIN.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-006",
+   "slug": "wagyu-meltique-beef-ribeye-cube-roll",
+   "nama_id": "Wagyu Meltique Beef Ribeye / Cube Roll",
+   "nama_en": "Wagyu Meltique Beef Ribeye / Cube Roll",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/wagyu-meltique-beef-ribeye-cube-roll.webp"
+    }
+   ],
+   "nama_asli": [
+    "WAGYU MELTIQUE BEEF RIBEYE / CUBE ROLL"
+   ],
+   "foto": [
+    "/img/produk/wagyu-meltique-beef-ribeye-cube-roll.webp"
+   ],
+   "_sumber_foto": {
+    "wagyu-meltique-beef-ribeye-cube-roll": "Kumpulan Daging/05 — WAGYU MELTIQUE BEEF RIBEYE : CUBE ROLL.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-007",
+   "slug": "wagyu-meltique-beef-saikoro",
+   "nama_id": "Wagyu Meltique Beef Saikoro",
+   "nama_en": "Wagyu Meltique Beef Saikoro",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/wagyu-meltique-beef-saikoro.webp"
+    }
+   ],
+   "nama_asli": [
+    "WAGYU MELTIQUE BEEF SAIKORO"
+   ],
+   "foto": [
+    "/img/produk/wagyu-meltique-beef-saikoro.webp"
+   ],
+   "_sumber_foto": {
+    "wagyu-meltique-beef-saikoro": "Kumpulan Daging/06 — WAGYU MELTIQUE BEEF SAIKORO.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-008",
+   "slug": "aust-beef-trimming-65-cl",
+   "nama_id": "Aust Beef Trimming 65 CL",
+   "nama_en": "Aust Beef Trimming 65 CL",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/aust-beef-trimming-65-cl.webp"
+    }
+   ],
+   "nama_asli": [
+    "AUST BEEF TRIMMING 65 CL"
+   ],
+   "foto": [
+    "/img/produk/aust-beef-trimming-65-cl.webp"
+   ],
+   "_sumber_foto": {
+    "aust-beef-trimming-65-cl": "Kumpulan Daging/07 — AUST BEEF TRIMMING 65 CL.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-009",
+   "slug": "tenderloin-frigol",
+   "nama_id": "Tenderloin Frigol",
+   "nama_en": "Tenderloin Frigol",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/tenderloin-frigol.webp"
+    }
+   ],
+   "nama_asli": [
+    "TENDERLOIN FRIGOL"
+   ],
+   "foto": [
+    "/img/produk/tenderloin-frigol.webp"
+   ],
+   "_sumber_foto": {
+    "tenderloin-frigol": "Kumpulan Daging/08 — TENDERLOIN FRIGOL.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-010",
+   "slug": "topside-friboi",
+   "nama_id": "Topside Friboi",
+   "nama_en": "Topside Friboi",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/topside-friboi.webp"
+    }
+   ],
+   "nama_asli": [
+    "TOPSIDE FRIBOI"
+   ],
+   "foto": [
+    "/img/produk/topside-friboi.webp"
+   ],
+   "_sumber_foto": {
+    "topside-friboi": "Kumpulan Daging/09 — TOPSIDE FRIBOI.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-011",
+   "slug": "tenderloin-lokal",
+   "nama_id": "Tenderloin Lokal",
+   "nama_en": "Tenderloin Local",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Lokal",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/tenderloin-lokal.webp"
+    }
+   ],
+   "nama_asli": [
+    "TENDERLOIN LOKAL"
+   ],
+   "foto": [
+    "/img/produk/tenderloin-lokal.webp"
+   ],
+   "_sumber_foto": {
+    "tenderloin-lokal": "Kumpulan Daging/10 — TENDERLOIN LOKAL.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-012",
+   "slug": "bzl-beef-brisket",
+   "nama_id": "BZL Beef Brisket",
+   "nama_en": "BZL Beef Brisket",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Brasil",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/bzl-beef-brisket.webp"
+    }
+   ],
+   "nama_asli": [
+    "BZL BEEF BRISKET"
+   ],
+   "foto": [
+    "/img/produk/bzl-beef-brisket.webp"
+   ],
+   "_sumber_foto": {
+    "bzl-beef-brisket": "Kumpulan Daging/11 — BZL BEEF BRISKET.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-013",
+   "slug": "50-cl-gbp",
+   "nama_id": "50 CL GBP",
+   "nama_en": "50 CL GBP",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/50-cl-gbp.webp"
+    }
+   ],
+   "nama_asli": [
+    "50 CL GBP"
+   ],
+   "foto": [
+    "/img/produk/50-cl-gbp.webp"
+   ],
+   "_sumber_foto": {
+    "50-cl-gbp": "Kumpulan Daging/12 — 50 CL GBP.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-014",
+   "slug": "bzl-trimming-cm-anglo",
+   "nama_id": "BZL Trimming CM Anglo",
+   "nama_en": "BZL Trimming CM Anglo",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Brasil",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/bzl-trimming-cm-anglo.webp"
+    }
+   ],
+   "nama_asli": [
+    "BZL TRIMMING CM ANGLO"
+   ],
+   "foto": [
+    "/img/produk/bzl-trimming-cm-anglo.webp"
+   ],
+   "_sumber_foto": {
+    "bzl-trimming-cm-anglo": "Kumpulan Daging/13 — BZL TRIMMING CM ANGLO.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-015",
+   "slug": "bzl-blade",
+   "nama_id": "BZL Blade",
+   "nama_en": "BZL Blade",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Brasil",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/bzl-blade.webp"
+    }
+   ],
+   "nama_asli": [
+    "BZL BLADE"
+   ],
+   "foto": [
+    "/img/produk/bzl-blade.webp"
+   ],
+   "_sumber_foto": {
+    "bzl-blade": "Kumpulan Daging/14 — BZL BLADE.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-016",
+   "slug": "bzl-striploin",
+   "nama_id": "BZL Striploin",
+   "nama_en": "BZL Striploin",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "Brasil",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/bzl-striploin.webp"
+    }
+   ],
+   "nama_asli": [
+    "BZL STRIPLOIN"
+   ],
+   "foto": [
+    "/img/produk/bzl-striploin.webp"
+   ],
+   "_sumber_foto": {
+    "bzl-striploin": "Kumpulan Daging/15 — BZL STRIPLOIN.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-017",
+   "slug": "tenderloin-aging",
+   "nama_id": "Tenderloin Aging",
+   "nama_en": "Tenderloin Aging",
+   "kategori": "BEEF",
+   "kategori_slug": "beef",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/tenderloin-aging.webp"
+    }
+   ],
+   "nama_asli": [
+    "TENDERLOIN AGING"
+   ],
+   "foto": [
+    "/img/produk/tenderloin-aging.webp"
+   ],
+   "_sumber_foto": {
+    "tenderloin-aging": "Kumpulan Daging/16 — TENDERLOIN AGING.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-018",
+   "slug": "aust-neck-bone-merasmist-paradigm-est-3416",
+   "nama_id": "Aust Neck Bone Merasmist (paradigm) EST 3416",
+   "nama_en": "Aust Neck Bone Merasmist (paradigm) EST 3416",
+   "kategori": "BONE",
+   "kategori_slug": "bone",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AUST NECK BONE MERASMIST (PARADIGM) EST 3416"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-019",
+   "slug": "aust-short-ribs-iw-ect-a",
+   "nama_id": "Aust Short Ribs IW ECT A",
+   "nama_en": "Aust Short Ribs IW ECT A",
+   "kategori": "BONE",
+   "kategori_slug": "bone",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/stok/iga.webp"
+    }
+   ],
+   "nama_asli": [
+    "AUST SHORT RIBS IW ECT A"
+   ],
+   "foto": [
+    "/img/stok/iga.webp"
+   ]
+  },
+  {
+   "sku": "SNFI-020",
+   "slug": "neckbone-cassino",
+   "nama_id": "Neckbone Cassino",
+   "nama_en": "Neckbone Cassino",
+   "kategori": "BONE",
+   "kategori_slug": "bone",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "NECKBONE CASSINO"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-021",
+   "slug": "neckbone-nolan",
+   "nama_id": "Neckbone Nolan",
+   "nama_en": "Neckbone Nolan",
+   "kategori": "BONE",
+   "kategori_slug": "bone",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "NECKBONE NOLAN"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-022",
+   "slug": "bzl-oxtail",
+   "nama_id": "BZL Oxtail",
+   "nama_en": "Brazilian Oxtail",
+   "kategori": "BONE",
+   "kategori_slug": "bone",
+   "asal": "Brasil",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BZL OXTAIL"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-023",
+   "slug": "ayam-dada-fillet-bld",
+   "nama_id": "Ayam Dada Fillet (bld",
+   "nama_en": "Chicken Breast Fillet (bld",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM DADA FILLET (BLD)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-024",
+   "slug": "ayam-paha-fillet-blp",
+   "nama_id": "Ayam Paha Fillet (blp",
+   "nama_en": "Chicken Thigh Fillet (blp",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM PAHA FILLET (BLP)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-025",
+   "slug": "ayam-karkas-frozen-0-8-0-9-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "0,8 - 0,9 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 0,8 - 0,9 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-026",
+   "slug": "ayam-karkas-frozen-0-9-1-0-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "0,9 - 1,0 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 0,9 - 1,0 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-027",
+   "slug": "ayam-karkas-frozen-1-0-1-1-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,0 - 1,1 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 1,0 - 1,1 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-028",
+   "slug": "ayam-karkas-frozen-1-1-1-2-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,1 - 1,2 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 1,1 - 1,2 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-029",
+   "slug": "ayam-karkas-frozen-1-2-1-3-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,2 - 1,3 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 1,2 - 1,3 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-030",
+   "slug": "ayam-karkas-frozen-1-3-1-4-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,3 - 1,4 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 1,3 - 1,4 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-031",
+   "slug": "ayam-karkas-frozen-1-4-1-5-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,4 - 1,5 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 1,4 - 1,5 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-032",
+   "slug": "ayam-karkas-frozen-1-5-1-6-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,5 - 1,6 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 1,5 - 1,6 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-033",
+   "slug": "ayam-hati-bersih",
+   "nama_id": "Ayam Hati Bersih",
+   "nama_en": "Cleaned Chicken Liver",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM HATI BERSIH"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-034",
+   "slug": "ayam-ampela-bersih",
+   "nama_id": "Ayam Ampela Bersih",
+   "nama_en": "Cleaned Chicken Gizzard",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM AMPELA BERSIH"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-035",
+   "slug": "ayam-kulit-bersih",
+   "nama_id": "Ayam Kulit Bersih",
+   "nama_en": "Cleaned Chicken Skin",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KULIT BERSIH"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-036",
+   "slug": "sayap-ayam-sedang",
+   "nama_id": "Sayap Ayam Sedang",
+   "nama_en": "Medium Chicken Wings",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "SAYAP AYAM SEDANG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-037",
+   "slug": "ayam-paha-utuh",
+   "nama_id": "Ayam Paha Utuh",
+   "nama_en": "Whole Chicken Leg",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM PAHA UTUH"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-038",
+   "slug": "paha-bawah-ipin-upin",
+   "nama_id": "Paha Bawah (ipin / Upin",
+   "nama_en": "Thigh Lower (ipin / Upin",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "PAHA BAWAH (IPIN / UPIN)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-039",
+   "slug": "ayam-hati-bersih-grade-b",
+   "nama_id": "Ayam Hati Bersih Grade B",
+   "nama_en": "Cleaned Chicken Liver Grade B",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM HATI BERSIH GRADE B"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-040",
+   "slug": "ayam-karkas-frozen-0-7-0-8-kg-ekor",
+   "nama_id": "Ayam Karkas Frozen",
+   "nama_en": "Frozen Whole Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "0,7 - 0,8 kg/ekor",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM KARKAS FROZEN (SZ 0,7 - 0,8 EKOR)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-041",
+   "slug": "bebek-merdeka-1-00-1-09",
+   "nama_id": "Bebek Merdeka",
+   "nama_en": "Duck Merdeka",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,00 - 1,09",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK MERDEKA 1,00 - 1,09"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-042",
+   "slug": "bebek-bebekku-1-50-1-59",
+   "nama_id": "Bebek Bebekku",
+   "nama_en": "Duck Bebekku",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,50 - 1,59",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK BEBEKKU 1,50 - 1,59"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-043",
+   "slug": "bebek-polos-1-20-1-29",
+   "nama_id": "Bebek Polos",
+   "nama_en": "Duck Plain",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,20 - 1,29",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK 1,20 - 1,29 POLOS"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-044",
+   "slug": "bebek-polos-1-40-1-49",
+   "nama_id": "Bebek Polos",
+   "nama_en": "Duck Plain",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1,40 - 1,49",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK 1,40 - 1,49 POLOS"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-045",
+   "slug": "bebek-meiduck-2-00-2-24",
+   "nama_id": "Bebek Meiduck",
+   "nama_en": "Duck Meiduck",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "2,00 - 2,24",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK MEIDUCK 2,00 - 2,24"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-046",
+   "slug": "bebek-polos-2-00-2-09",
+   "nama_id": "Bebek Polos",
+   "nama_en": "Duck Plain",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "2,00 - 2,09",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK 2,00 - 2,09 POLOS"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-047",
+   "slug": "bebek-meiduck-2-25-2-39",
+   "nama_id": "Bebek Meiduck",
+   "nama_en": "Duck Meiduck",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "2.25 - 2.39",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK MEIDUCK 2.25 - 2.39"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-048",
+   "slug": "bebek-polos-2-10-2-19",
+   "nama_id": "Bebek Polos",
+   "nama_en": "Duck Plain",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "2,10 - 2,19",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK 2,10 - 2,19 POLOS"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-049",
+   "slug": "bebek-polos-2-20-2-29",
+   "nama_id": "Bebek Polos",
+   "nama_en": "Duck Plain",
+   "kategori": "DUCK",
+   "kategori_slug": "duck",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "2,20 - 2,29",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEBEK 2,20 - 2,29 POLOS"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-050",
+   "slug": "aust-ligamenthum-urat-mayang",
+   "nama_id": "Aust Ligamenthum / Urat Mayang",
+   "nama_en": "Australian Beef Tendon",
+   "kategori": "EDIBLE OFFAL",
+   "kategori_slug": "offal",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AUST LIGAMENTHUM / URAT MAYANG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-051",
+   "slug": "aust-liver-hati-sapi",
+   "nama_id": "Aust Liver / Hati Sapi",
+   "nama_en": "Australian Beef Liver",
+   "kategori": "EDIBLE OFFAL",
+   "kategori_slug": "offal",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AUST LIVER / HATI SAPI"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-052",
+   "slug": "paru-amh",
+   "nama_id": "Paru AMH",
+   "nama_en": "Beef Lung",
+   "kategori": "EDIBLE OFFAL",
+   "kategori_slug": "offal",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "PARU AMH"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-053",
+   "slug": "espan-ligamentum-umay-carnemax",
+   "nama_id": "Espan Ligamentum/umay Carnemax",
+   "nama_en": "Espan Ligamentum/umay Carnemax",
+   "kategori": "EDIBLE OFFAL",
+   "kategori_slug": "offal",
+   "asal": "Spanyol",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "ESPAN LIGAMENTUM/UMAY CARNEMAX"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-054",
+   "slug": "bzl-lung",
+   "nama_id": "BZL Lung",
+   "nama_en": "Brazilian Beef Lung",
+   "kategori": "EDIBLE OFFAL",
+   "kategori_slug": "offal",
+   "asal": "Brasil",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BZL LUNG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-055",
+   "slug": "strawberry-frozen-1kg",
+   "nama_id": "Strawberry Frozen",
+   "nama_en": "Strawberry Frozen",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "@1KG",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "STRAWBERRY FROZEN @1KG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-056",
+   "slug": "bluberry-frozen",
+   "nama_id": "Bluberry Frozen",
+   "nama_en": "Bluberry Frozen",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BLUBERRY FROZEN"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-057",
+   "slug": "kk-mix-berry-frozen",
+   "nama_id": "KK MIX Berry Frozen",
+   "nama_en": "KK Mixed Berry Frozen",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "KK MIX BERRY FROZEN"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-058",
+   "slug": "markisa-biji-frozen",
+   "nama_id": "Markisa Biji Frozen",
+   "nama_en": "Passion Fruit Seeded Frozen",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "MARKISA BIJI FROZEN"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-059",
+   "slug": "markisa-non-biji-frozen",
+   "nama_id": "Markisa NON Biji Frozen",
+   "nama_en": "Passion Fruit NON Seeded Frozen",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "MARKISA NON BIJI FROZEN"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-060",
+   "slug": "kk-black-berry",
+   "nama_id": "KK Black Berry",
+   "nama_en": "KK Black Berry",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "KK BLACK BERRY"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-061",
+   "slug": "kk-cranberry-frozen",
+   "nama_id": "KK Cranberry Frozen",
+   "nama_en": "KK Cranberry Frozen",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "KK CRANBERRY FROZEN"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-062",
+   "slug": "daging-95-cl-roll-fq-106-105",
+   "nama_id": "Daging 95 CL Roll FQ",
+   "nama_en": "Meat 95 CL Roll FQ",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "106/105",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING 95 CL ROLL FQ 106/105"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-063",
+   "slug": "daging-95-cl-bullpack-fq-18-16",
+   "nama_id": "Daging 95 CL Bullpack FQ",
+   "nama_en": "Meat 95 CL Bullpack FQ",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "18/16",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING 95 CL BULLPACK FQ 18/16"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-064",
+   "slug": "daging-chuck-tender-fq-64",
+   "nama_id": "Daging Chuck Tender FQ 64",
+   "nama_en": "Meat Chuck Tender FQ 64",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING CHUCK TENDER FQ 64"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-065",
+   "slug": "daging-blade-fq-65",
+   "nama_id": "Daging Blade FQ 65",
+   "nama_en": "Meat Blade FQ 65",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING BLADE FQ 65"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-066",
+   "slug": "daging-tenderloin-hq-31",
+   "nama_id": "Daging Tenderloin HQ 31",
+   "nama_en": "Meat Tenderloin HQ 31",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING TENDERLOIN HQ 31"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-067",
+   "slug": "daging-topside-hq-41",
+   "nama_id": "Daging Topside HQ 41",
+   "nama_en": "Meat Topside HQ 41",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING TOPSIDE HQ 41"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-068",
+   "slug": "daging-knuckle-hq-42",
+   "nama_id": "Daging Knuckle HQ 42",
+   "nama_en": "Meat Knuckle HQ 42",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING KNUCKLE HQ 42"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-069",
+   "slug": "daging-silverside-hq-44",
+   "nama_id": "Daging Silverside HQ 44",
+   "nama_en": "Meat Silverside HQ 44",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING SILVERSIDE HQ 44"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-070",
+   "slug": "daging-rump-hq-45",
+   "nama_id": "Daging Rump HQ 45",
+   "nama_en": "Meat Rump HQ 45",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING RUMP HQ 45"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-071",
+   "slug": "daging-striploin-hq-46",
+   "nama_id": "Daging Striploin HQ 46",
+   "nama_en": "Meat Striploin HQ 46",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING STRIPLOIN HQ 46"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-072",
+   "slug": "daging-001",
+   "nama_id": "Daging 001",
+   "nama_en": "Meat 001",
+   "kategori": "INDIAN BUFFALO",
+   "kategori_slug": "kerbau",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING 001"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-073",
+   "slug": "daging-kambing-fillet-tanpa-tulang-800gr",
+   "nama_id": "Daging Kambing Fillet Tanpa Tulang",
+   "nama_en": "Meat Goat Fillet Without Bone",
+   "kategori": "LAMB",
+   "kategori_slug": "lamb",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "@800GR",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "DAGING KAMBING FILLET TANPA TULANG @800GR"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-074",
+   "slug": "karkas-kambing",
+   "nama_id": "Karkas Kambing",
+   "nama_en": "Whole Goat Carcass",
+   "kategori": "LAMB",
+   "kategori_slug": "lamb",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "KARKAS KAMBING"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-075",
+   "slug": "iga-kambing-1kg",
+   "nama_id": "IGA Kambing",
+   "nama_en": "Goat Ribs",
+   "kategori": "LAMB",
+   "kategori_slug": "lamb",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1KG",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "IGA KAMBING 1KG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-076",
+   "slug": "paha-kambing-sampil",
+   "nama_id": "Paha Kambing (sampil",
+   "nama_en": "Thigh Goat (sampil",
+   "kategori": "LAMB",
+   "kategori_slug": "lamb",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "PAHA KAMBING (SAMPIL)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-077",
+   "slug": "fr-pangasius-fillet-nbl-13x385gr",
+   "nama_id": "FR Pangasius Fillet NBL",
+   "nama_en": "FR Pangasius Fillet NBL",
+   "kategori": "PRODUCT CENTRALPERTIWI",
+   "kategori_slug": "laut-olahan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "13X385GR",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "FR PANGASIUS FILLET NBL 13X385GR"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-078",
+   "slug": "van-raw-pnd-iqf-frosh-udang-kupas-71-90",
+   "nama_id": "VAN RAW PND IQF Frosh (udang Kupas",
+   "nama_en": "VAN RAW PND IQF Frosh (udang Peeled",
+   "kategori": "PRODUCT CENTRALPERTIWI",
+   "kategori_slug": "laut-olahan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "71-90",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "VAN RAW PND IQF FROSH SZ 71-90 (UDANG KUPAS)"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-079",
+   "slug": "beef-slice-grd-b-500gr",
+   "nama_id": "Beef Slice GRD B",
+   "nama_en": "Beef Slice GRD B",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "500GR",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEEF SLICE GRD B 500GR"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-080",
+   "slug": "beef-slice-grade-a-500gram",
+   "nama_id": "Beef Slice Grade A",
+   "nama_en": "Beef Slice Grade A",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "500GRAM",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEEF SLICE GRADE A 500GRAM"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-081",
+   "slug": "aust-minced-beef-import-85cl-1-kg",
+   "nama_id": "Aust Minced Beef Import 85CL",
+   "nama_en": "Aust Minced Beef Imported 85CL",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "1 KG",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AUST MINCED BEEF IMPORT 85CL 1 KG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-082",
+   "slug": "ayam-slice-500-gram",
+   "nama_id": "Ayam Slice",
+   "nama_en": "Sliced Chicken",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "500 GRAM",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM SLICE 500 GRAM"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-083",
+   "slug": "aust-minced-beef-import-95cl-1kg",
+   "nama_id": "Aust Minced Beef Import 95CL",
+   "nama_en": "Aust Minced Beef Imported 95CL",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "Australia",
+   "varian": [
+    {
+     "ukuran": "1KG",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AUST MINCED BEEF IMPORT 95CL 1KG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-084",
+   "slug": "ayam-minced-lokal-500-gram",
+   "nama_id": "Ayam Minced Lokal",
+   "nama_en": "Local Minced Chicken",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "Lokal",
+   "varian": [
+    {
+     "ukuran": "500 GRAM",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "AYAM MINCED LOKAL 500 GRAM"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-085",
+   "slug": "beef-rendang-500-gram",
+   "nama_id": "Beef Rendang",
+   "nama_en": "Beef Rendang",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "500 GRAM",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "BEEF RENDANG 500 GRAM"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-086",
+   "slug": "usa-beef-shortplate-slice-500gram",
+   "nama_id": "USA Beef Shortplate Slice",
+   "nama_en": "USA Beef Shortplate Slice",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "Amerika Serikat",
+   "varian": [
+    {
+     "ukuran": "500GRAM",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "USA BEEF SHORTPLATE SLICE 500GRAM"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-087",
+   "slug": "mix-slice-500gram",
+   "nama_id": "MIX Slice",
+   "nama_en": "Mixed Slice",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "500GRAM",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "MIX SLICE 500GRAM"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-088",
+   "slug": "minced-beef-import-75-cl-1kg",
+   "nama_id": "Minced Beef Import 75 CL",
+   "nama_en": "Minced Beef Imported 75 CL",
+   "kategori": "PRODUKSI",
+   "kategori_slug": "olahan",
+   "asal": "Impor",
+   "varian": [
+    {
+     "ukuran": "1KG",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "MINCED BEEF IMPORT 75 CL 1KG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-089",
+   "slug": "udang-windu-15",
+   "nama_id": "Udang Windu",
+   "nama_en": "Black Tiger Shrimp",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "15",
+     "foto": "/img/produk/udang-windu-15.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG WINDU SZ 15"
+   ],
+   "foto": [
+    "/img/produk/udang-windu-15.webp"
+   ],
+   "_sumber_foto": {
+    "udang-windu-15": "Seafood/UDANG WINDU SZ 15..jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-090",
+   "slug": "udang-windu-20",
+   "nama_id": "Udang Windu",
+   "nama_en": "Black Tiger Shrimp",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "20",
+     "foto": "/img/produk/udang-windu-20.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG WINDU SZ 20"
+   ],
+   "foto": [
+    "/img/produk/udang-windu-20.webp"
+   ],
+   "_sumber_foto": {
+    "udang-windu-20": "Seafood/UDANG WINDU SZ 20.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-091",
+   "slug": "udang-windu-25",
+   "nama_id": "Udang Windu",
+   "nama_en": "Black Tiger Shrimp",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "25",
+     "foto": "/img/produk/udang-windu-25.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG WINDU SZ 25"
+   ],
+   "foto": [
+    "/img/produk/udang-windu-25.webp"
+   ],
+   "_sumber_foto": {
+    "udang-windu-25": "Seafood/UDANG WINDU SZ 25.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-092",
+   "slug": "udang-windu-40",
+   "nama_id": "Udang Windu",
+   "nama_en": "Black Tiger Shrimp",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "40",
+     "foto": "/img/produk/udang-windu-40.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG WINDU SZ 40"
+   ],
+   "foto": [
+    "/img/produk/udang-windu-40.webp"
+   ],
+   "_sumber_foto": {
+    "udang-windu-40": "Seafood/UDANG WINDU SZ 40.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-093",
+   "slug": "cumi-tube-import-4-5-1-kg",
+   "nama_id": "Cumi Tube Import",
+   "nama_en": "Imported Squid Tube",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "Impor",
+   "varian": [
+    {
+     "ukuran": "4-5 @1 KG",
+     "foto": "/img/produk/cumi-tube-import-4-5-1-kg.webp"
+    }
+   ],
+   "nama_asli": [
+    "CUMI TUBE IMPORT SZ 4-5 @1 KG"
+   ],
+   "foto": [
+    "/img/produk/cumi-tube-import-4-5-1-kg.webp"
+   ],
+   "_sumber_foto": {
+    "cumi-tube-import-4-5-1-kg": "Seafood/1. CUMI TUBE IMPORT SZ 4-5 @1 KG.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-094",
+   "slug": "tuna-saku-vacum-pack-200-600-gr",
+   "nama_id": "Tuna Saku Vacum Pack",
+   "nama_en": "Tuna Cube Vacuum Pack",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "200-600 GR",
+     "foto": "/img/produk/tuna-saku-vacum-pack-200-600-gr.webp"
+    }
+   ],
+   "nama_asli": [
+    "TUNA SAKU VACUM PACK 200-600 GR"
+   ],
+   "foto": [
+    "/img/produk/tuna-saku-vacum-pack-200-600-gr.webp"
+   ],
+   "_sumber_foto": {
+    "tuna-saku-vacum-pack-200-600-gr": "Seafood/TUNA SAKU VACUM PACK 200-600 GR.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-095",
+   "slug": "tuna-steak-vacum-pack-180-250-gr",
+   "nama_id": "Tuna Steak Vacum Pack",
+   "nama_en": "Tuna Steak Vacuum Pack",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "180-250 GR",
+     "foto": "/img/produk/tuna-steak-vacum-pack-180-250-gr.webp"
+    }
+   ],
+   "nama_asli": [
+    "TUNA STEAK VACUM PACK 180-250 GR"
+   ],
+   "foto": [
+    "/img/produk/tuna-steak-vacum-pack-180-250-gr.webp"
+   ],
+   "_sumber_foto": {
+    "tuna-steak-vacum-pack-180-250-gr": "Seafood/TUNA STEAK VACUM PACK 180-250 GR.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-096",
+   "slug": "baby-octopus-30-50-gr",
+   "nama_id": "Baby Octopus",
+   "nama_en": "Baby Octopus",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "30-50 GR",
+     "foto": "/img/produk/baby-octopus-30-50-gr.webp"
+    }
+   ],
+   "nama_asli": [
+    "BABY OCTOPUS 30-50 GR"
+   ],
+   "foto": [
+    "/img/produk/baby-octopus-30-50-gr.webp"
+   ],
+   "_sumber_foto": {
+    "baby-octopus-30-50-gr": "Seafood/Baby Octopus.png"
+   }
+  },
+  {
+   "sku": "SNFI-097",
+   "slug": "dori-fillet-bl-3-1kg",
+   "nama_id": "Dori Fillet BL",
+   "nama_en": "Dori Fillet BL",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "3 @1KG",
+     "foto": "/img/produk/dori-fillet-bl-3-1kg.webp"
+    }
+   ],
+   "nama_asli": [
+    "DORI FILLET BL SZ 3 @1KG"
+   ],
+   "foto": [
+    "/img/produk/dori-fillet-bl-3-1kg.webp"
+   ],
+   "_sumber_foto": {
+    "dori-fillet-bl-3-1kg": "Seafood/Dori Fillet.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-098",
+   "slug": "scallop-import-10-20-2-27kg",
+   "nama_id": "Scallop Import",
+   "nama_en": "Scallop Imported",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "Impor",
+   "varian": [
+    {
+     "ukuran": "10/20 @2.27KG",
+     "foto": "/img/produk/scallop-import-10-20-2-27kg.webp"
+    }
+   ],
+   "nama_asli": [
+    "SCALLOP IMPORT 10/20 @2.27KG"
+   ],
+   "foto": [
+    "/img/produk/scallop-import-10-20-2-27kg.webp"
+   ],
+   "_sumber_foto": {
+    "scallop-import-10-20-2-27kg": "Seafood/SCALLOP IMPORT 10:20 @2.27KG .jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-099",
+   "slug": "cumi-flower",
+   "nama_id": "Cumi Flower",
+   "nama_en": "Squid Flower",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/cumi-flower.webp"
+    }
+   ],
+   "nama_asli": [
+    "CUMI FLOWER"
+   ],
+   "foto": [
+    "/img/produk/cumi-flower.webp"
+   ],
+   "_sumber_foto": {
+    "cumi-flower": "Seafood/Cumi Flower.png"
+   }
+  },
+  {
+   "sku": "SNFI-100",
+   "slug": "cumi-ring",
+   "nama_id": "Cumi Ring",
+   "nama_en": "Squid Ring",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/cumi-ring.webp"
+    }
+   ],
+   "nama_asli": [
+    "CUMI RING"
+   ],
+   "foto": [
+    "/img/produk/cumi-ring.webp"
+   ],
+   "_sumber_foto": {
+    "cumi-ring": "Seafood/Cumi Ring.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-101",
+   "slug": "scallop-meat-local",
+   "nama_id": "Scallop Meat Local",
+   "nama_en": "Scallop Meat Local",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "Lokal",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/scallop-meat-local.webp"
+    }
+   ],
+   "nama_asli": [
+    "SCALLOP MEAT LOCAL"
+   ],
+   "foto": [
+    "/img/produk/scallop-meat-local.webp"
+   ],
+   "_sumber_foto": {
+    "scallop-meat-local": "Seafood/Scalop Local.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-102",
+   "slug": "crab-meat-dada",
+   "nama_id": "Crab Meat Dada",
+   "nama_en": "Crab Meat Breast",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/crab-meat-dada.webp"
+    }
+   ],
+   "nama_asli": [
+    "CRAB MEAT DADA"
+   ],
+   "foto": [
+    "/img/produk/crab-meat-dada.webp"
+   ],
+   "_sumber_foto": {
+    "crab-meat-dada": "Seafood/Crab Meat Dada.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-103",
+   "slug": "green-mussel-1kg",
+   "nama_id": "Green Mussel",
+   "nama_en": "Green Mussel",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "@1KG",
+     "foto": "/img/produk/green-mussel-1kg.webp"
+    }
+   ],
+   "nama_asli": [
+    "GREEN MUSSEL @1KG"
+   ],
+   "foto": [
+    "/img/produk/green-mussel-1kg.webp"
+   ],
+   "_sumber_foto": {
+    "green-mussel-1kg": "Seafood/GREEN MUSSEL @1KG.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-104",
+   "slug": "tuna-loin-4-kg-up",
+   "nama_id": "Tuna Loin",
+   "nama_en": "Tuna Loin",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "4 KG UP",
+     "foto": "/img/produk/tuna-loin-4-kg-up.webp"
+    }
+   ],
+   "nama_asli": [
+    "TUNA LOIN 4 KG UP"
+   ],
+   "foto": [
+    "/img/produk/tuna-loin-4-kg-up.webp"
+   ],
+   "_sumber_foto": {
+    "tuna-loin-4-kg-up": "Seafood/TUNA LOIN 4 KG UP.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-105",
+   "slug": "udang-kupas-100-200-1kg",
+   "nama_id": "Udang Kupas",
+   "nama_en": "Peeled Shrimp",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "100/200 @1KG",
+     "foto": "/img/produk/udang-kupas-100-200-1kg.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG KUPAS 100/200 @1KG"
+   ],
+   "foto": [
+    "/img/produk/udang-kupas-100-200-1kg.webp"
+   ],
+   "_sumber_foto": {
+    "udang-kupas-100-200-1kg": "Seafood/UDANG KUPAS 100:200 @1KG.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-106",
+   "slug": "mahi-mahi-fillet-skinless",
+   "nama_id": "Mahi Mahi Fillet Skinless",
+   "nama_en": "Mahi Mahi Fillet Skinless",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/mahi-mahi-fillet-skinless.webp"
+    }
+   ],
+   "nama_asli": [
+    "MAHI MAHI FILLET SKINLESS"
+   ],
+   "foto": [
+    "/img/produk/mahi-mahi-fillet-skinless.webp"
+   ],
+   "_sumber_foto": {
+    "mahi-mahi-fillet-skinless": "Seafood/MAHI MAHI FILLET SKINLESS.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-107",
+   "slug": "salmon-headless",
+   "nama_id": "Salmon Headless",
+   "nama_en": "Salmon Headless",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/salmon-headless.webp"
+    }
+   ],
+   "nama_asli": [
+    "SALMON HEADLESS"
+   ],
+   "foto": [
+    "/img/produk/salmon-headless.webp"
+   ],
+   "_sumber_foto": {
+    "salmon-headless": "Seafood/SALMON HEADLESS.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-108",
+   "slug": "kakap-putih-fillet-skin-on-500-gr-up",
+   "nama_id": "Kakap Putih Fillet Skin ON",
+   "nama_en": "Barramundi White Fillet Skin ON",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "500 GR UP",
+     "foto": "/img/produk/kakap-putih-fillet-skin-on-500-gr-up.webp"
+    }
+   ],
+   "nama_asli": [
+    "KAKAP PUTIH FILLET SKIN ON 500 GR UP"
+   ],
+   "foto": [
+    "/img/produk/kakap-putih-fillet-skin-on-500-gr-up.webp"
+   ],
+   "_sumber_foto": {
+    "kakap-putih-fillet-skin-on-500-gr-up": "Seafood/KAKAP PUTIH FILLET SKIN ON 500 GR UP.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-109",
+   "slug": "udang-kupas-26-30",
+   "nama_id": "Udang Kupas",
+   "nama_en": "Peeled Shrimp",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "26/30",
+     "foto": "/img/produk/udang-kupas-26-30.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG KUPAS 26/30"
+   ],
+   "foto": [
+    "/img/produk/udang-kupas-26-30.webp"
+   ],
+   "_sumber_foto": {
+    "udang-kupas-26-30": "Seafood/UDANG KUPAS 26:30.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-110",
+   "slug": "salmon-fillet-skin-on-premium",
+   "nama_id": "Salmon Fillet Skin ON Premium",
+   "nama_en": "Salmon Fillet Skin ON Premium",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/salmon-fillet-skin-on-premium.webp"
+    }
+   ],
+   "nama_asli": [
+    "SALMON FILLET SKIN ON PREMIUM"
+   ],
+   "foto": [
+    "/img/produk/salmon-fillet-skin-on-premium.webp"
+   ],
+   "_sumber_foto": {
+    "salmon-fillet-skin-on-premium": "Seafood/SALMON FILLET SKIN ON PREMIUM.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-111",
+   "slug": "udang-kupas-20-25",
+   "nama_id": "Udang Kupas",
+   "nama_en": "Peeled Shrimp",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "20/25",
+     "foto": "/img/produk/udang-kupas-20-25.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG KUPAS 20/25"
+   ],
+   "foto": [
+    "/img/produk/udang-kupas-20-25.webp"
+   ],
+   "_sumber_foto": {
+    "udang-kupas-20-25": "Seafood/UDANG KUPAS 20:25.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-112",
+   "slug": "scallop-meat-local-40-60",
+   "nama_id": "Scallop Meat Local",
+   "nama_en": "Scallop Meat Local",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "Lokal",
+   "varian": [
+    {
+     "ukuran": "40/60",
+     "foto": "/img/produk/scallop-meat-local-40-60.webp"
+    }
+   ],
+   "nama_asli": [
+    "SCALLOP MEAT LOCAL 40/60"
+   ],
+   "foto": [
+    "/img/produk/scallop-meat-local-40-60.webp"
+   ],
+   "_sumber_foto": {
+    "scallop-meat-local-40-60": "Seafood/SCALLOP MEAT LOCAL 40:60.jpeg"
+   }
+  },
+  {
+   "sku": "SNFI-113",
+   "slug": "surabaja-bakso-sapi-kecil",
+   "nama_id": "Surabaja Bakso Sapi Kecil",
+   "nama_en": "Surabaja Meatball Beef Small",
+   "kategori": "SURABAJA",
+   "kategori_slug": "bakso",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "SURABAJA BAKSO SAPI KECIL"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-114",
+   "slug": "surabaja-bakso-sapi-jumbo",
+   "nama_id": "Surabaja Bakso Sapi Jumbo",
+   "nama_en": "Surabaja Meatball Beef Jumbo",
+   "kategori": "SURABAJA",
+   "kategori_slug": "bakso",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "SURABAJA BAKSO SAPI JUMBO"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-115",
+   "slug": "kk-mix-vegetable-4-ways-1kg",
+   "nama_id": "KK MIX Vegetable (4 Ways",
+   "nama_en": "KK Mixed Vegetable (4 Ways",
+   "kategori": "VEGETABLE",
+   "kategori_slug": "vegetable",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1KG",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "KK MIX VEGETABLE (4 WAYS) 1KG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-116",
+   "slug": "kk-mix-vegetable-3-ways-1kg",
+   "nama_id": "KK MIX Vegetable (3 Ways",
+   "nama_en": "KK Mixed Vegetable (3 Ways",
+   "kategori": "VEGETABLE",
+   "kategori_slug": "vegetable",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "1KG",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "KK MIX VEGETABLE (3 WAYS) 1KG"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-117",
+   "slug": "green-peas",
+   "nama_id": "Green Peas",
+   "nama_en": "Green Peas",
+   "kategori": "VEGETABLE",
+   "kategori_slug": "vegetable",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "GREEN PEAS"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-118",
+   "slug": "home-mixed-4-vegetables-4-ways-1kg-x-10pak",
+   "nama_id": "Home Mixed 4 Vegetables (4 Ways",
+   "nama_en": "Home Mixed 4 Vegetables (4 Ways",
+   "kategori": "VEGETABLE",
+   "kategori_slug": "vegetable",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "@1KG X 10PAK",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "HOME MIXED 4 VEGETABLES (4 WAYS) @1KG X 10PAK"
+   ],
+   "foto": []
+  },
+  {
+   "sku": "SNFI-119",
+   "slug": "edamame-frozen",
+   "nama_id": "Edamame Frozen",
+   "nama_en": "Edamame Frozen",
+   "kategori": "VEGETABLE",
+   "kategori_slug": "vegetable",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": null
+    }
+   ],
+   "nama_asli": [
+    "EDAMAME FROZEN"
+   ],
+   "foto": []
+  }
+ ]
+}
