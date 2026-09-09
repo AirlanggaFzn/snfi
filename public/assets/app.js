@@ -71,50 +71,85 @@
     });
   }
 
-  // --- filter + pencarian katalog ---
+  // --- filter + pencarian + paginasi katalog ---
   var katalog = document.querySelector('[data-katalog]');
   if (!katalog) return;
   var kartu = Array.prototype.slice.call(katalog.querySelectorAll('.card'));
   var cari = document.querySelector('[data-cari]');
   var tombol = Array.prototype.slice.call(document.querySelectorAll('.filters button'));
   var hitung = document.querySelector('[data-jumlah]');
-  var lagi = document.querySelector('[data-lagi]');
-  var SEKALI = 15;                     // kartu per halaman
+  var pager = document.querySelector('[data-pager]');
+  var PER = 12;                        // kartu per halaman
   var kategori = '';
   var kunci = '';
-  var batas = SEKALI;
+  var halaman = 1;
 
   function terapkan() {
-    var cocok = 0;
-    var tampil = 0;
-    kartu.forEach(function (k) {
-      var cocokKat = !kategori || k.dataset.kategori === kategori;
-      var cocokCari = !kunci || k.dataset.cari.indexOf(kunci) > -1;
-      var ok = cocokKat && cocokCari;
-      if (ok) cocok++;
-      var terlihat = ok && cocok <= batas;
-      k.hidden = !terlihat;
-      if (terlihat) tampil++;
+    var cocok = kartu.filter(function (k) {
+      return (!kategori || k.dataset.kategori === kategori) &&
+             (!kunci || k.dataset.cari.indexOf(kunci) > -1);
     });
-    if (lagi) {
-      var sisa = cocok - tampil;
-      lagi.hidden = sisa <= 0;
-      lagi.textContent = lagi.dataset.label + ' ' + lagi.dataset.sisa.replace('{n}', sisa);
-    }
-    if (hitung) hitung.textContent = hitung.dataset.pola.replace('{n}', cocok);
+    var maks = Math.max(1, Math.ceil(cocok.length / PER));
+    if (halaman > maks) halaman = maks;
+    var mulai = (halaman - 1) * PER;
+    kartu.forEach(function (k) { k.hidden = true; });
+    cocok.forEach(function (k, i) { k.hidden = i < mulai || i >= mulai + PER; });
+    if (hitung) hitung.textContent = hitung.dataset.pola.replace('{n}', cocok.length);
     tombol.forEach(function (b) {
       b.setAttribute('aria-pressed', String(b.dataset.kategori === kategori));
     });
+    gambarPager(maks);
+    syncUrl();
+  }
+
+  function syncUrl() {
     var u = new URL(location.href);
     kategori ? u.searchParams.set('kategori', kategori) : u.searchParams.delete('kategori');
     kunci ? u.searchParams.set('q', kunci) : u.searchParams.delete('q');
+    halaman > 1 ? u.searchParams.set('hal', halaman) : u.searchParams.delete('hal');
     history.replaceState(null, '', u);
+  }
+
+  function loncat() {
+    var y = katalog.getBoundingClientRect().top + window.pageYOffset - 90;
+    window.scrollTo({ top: y, behavior: kurangGerak ? 'auto' : 'smooth' });
+  }
+
+  function gambarPager(maks) {
+    if (!pager) return;
+    pager.textContent = '';
+    if (maks <= 1) { pager.hidden = true; return; }
+    pager.hidden = false;
+    var tbl = function (label, hal, opsi) {
+      opsi = opsi || {};
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = label;
+      if (opsi.aria) b.setAttribute('aria-label', opsi.aria);
+      if (opsi.aktif) b.setAttribute('aria-current', 'page');
+      if (opsi.mati) b.disabled = true;
+      else b.onclick = function () { halaman = hal; terapkan(); loncat(); };
+      pager.appendChild(b);
+    };
+    var gap = function () {
+      var s = document.createElement('span');
+      s.className = 'pager-gap';
+      s.textContent = '…';
+      pager.appendChild(s);
+    };
+    tbl(pager.dataset.prev || '‹', halaman - 1, { mati: halaman <= 1, aria: pager.dataset.prev });
+    var dari = Math.max(1, Math.min(halaman - 2, maks - 4));
+    var sampai = Math.min(maks, dari + 4);
+    if (dari > 1) { tbl('1', 1); if (dari > 2) gap(); }
+    for (var i = dari; i <= sampai; i++) tbl(String(i), i, { aktif: i === halaman });
+    if (sampai < maks) { if (sampai < maks - 1) gap(); tbl(String(maks), maks); }
+    tbl(pager.dataset.next || '›', halaman + 1, { mati: halaman >= maks, aria: pager.dataset.next });
   }
 
   tombol.forEach(function (b) {
     b.onclick = function () {
       kategori = b.dataset.kategori === kategori ? '' : b.dataset.kategori;
-      batas = SEKALI;
+      halaman = 1;
       terapkan();
     };
   });
@@ -125,22 +160,16 @@
       clearTimeout(t);
       t = setTimeout(function () {
         kunci = cari.value.trim().toLowerCase();
-        batas = SEKALI;
+        halaman = 1;
         terapkan();
       }, 200);
-    };
-  }
-
-  if (lagi) {
-    lagi.onclick = function () {
-      batas += SEKALI;
-      terapkan();
     };
   }
 
   var awal = new URL(location.href).searchParams;
   kategori = awal.get('kategori') || '';
   kunci = (awal.get('q') || '').toLowerCase();
+  halaman = Math.max(1, parseInt(awal.get('hal'), 10) || 1);
   if (cari && kunci) cari.value = kunci;
   terapkan();
 })();

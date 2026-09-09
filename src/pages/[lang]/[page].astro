@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import RecipeCard from '../../components/RecipeCard.astro';
 import Ico from '../../components/Ico.astro';
-import { katalog, resep, site, t, path, langs, alternates, ROUTE, waLink, nama } from '../../lib/site.js';
+import { katalog, resep, site, t, path, langs, alternates, ROUTE, waLink } from '../../lib/site.js';
 
 export function getStaticPaths() {
   const halaman = ['katalog', 'resep', 'tentang', 'kontak'];
@@ -19,7 +19,6 @@ const judul = { katalog: t(lang, 'cat.title'), resep: t(lang, 'recipe.title'), t
 const deskripsi = { katalog: t(lang, 'cat.desc'), resep: t(lang, 'recipe.desc'), tentang: t(lang, 'hero.desc'), kontak: t(lang, 'contact.desc') }[kunci];
 const wa = waLink(`${t(lang, 'wa.msg')}\n\n${site.url}/${lang}/`);
 const tel = `tel:${site.telepon.replace(/[^+\d]/g, '')}`;
-const aboutFoto = produk.find((p) => p.foto.length);
 const aboutFitur = [['star', 1], ['temp', 2], ['cut', 3]];
 ---
 <Base {lang} {alt} aktif={kunci} title={`${judul} — ${site.nama_panjang}`} description={deskripsi}>
@@ -53,12 +52,8 @@ const aboutFitur = [['star', 1], ['temp', 2], ['cut', 3]];
           <div class="grid" data-katalog>
             {produk.map((p) => <ProductCard {p} {lang} />)}
           </div>
-          <p style="text-align:center;margin-top:34px">
-            <button type="button" class="btn" data-lagi
-                    data-label={t(lang, 'cat.more')} data-sisa={t(lang, 'cat.more.sisa')}>
-              {t(lang, 'cat.more')}
-            </button>
-          </p>
+          <nav class="pager" data-pager aria-label={t(lang, 'nav.catalog')}
+               data-prev={t(lang, 'cat.prev')} data-next={t(lang, 'cat.next')}></nav>
         </div>
       </section>
     </>
@@ -89,7 +84,8 @@ const aboutFitur = [['star', 1], ['temp', 2], ['cut', 3]];
       <section class="section">
         <div class="inner about">
           <div class="about-shot">
-            <img src={aboutFoto.foto[0]} alt={nama(aboutFoto, lang)} width="800" height="800" />
+            <img src="/img/aboutus.webp" alt={site.nama_panjang} width="670" height="896"
+                 style="aspect-ratio:670/896;object-fit:cover" />
             <div class="tag-exp">
               <b>{t(lang, 'about.exp.n')}</b><small>{t(lang, 'about.exp.t')}</small>
             </div>
