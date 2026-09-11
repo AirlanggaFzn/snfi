@@ -19,7 +19,7 @@
    "slug": "chicken",
    "id": "Ayam",
    "en": "Chicken",
-   "jumlah": 18
+   "jumlah": 19
   },
   {
    "kode": "INDIAN BUFFALO",
@@ -90,35 +90,9 @@
    "id": "Produk Laut Olahan",
    "en": "Processed Seafood",
    "jumlah": 2
-  },
-  {
-   "kode": "AYAM PEJANTAN",
-   "slug": "pejantan",
-   "id": "Ayam Pejantan",
-   "en": "Rooster Chicken",
-   "jumlah": 1
   }
  ],
  "produk": [
-  {
-   "sku": "SNFI-001",
-   "slug": "ayam-pejantan-0-7-0-8",
-   "nama_id": "Ayam Pejantan",
-   "nama_en": "Rooster Chicken",
-   "kategori": "AYAM PEJANTAN",
-   "kategori_slug": "pejantan",
-   "asal": "",
-   "varian": [
-    {
-     "ukuran": "0,7 - 0,8",
-     "foto": null
-    }
-   ],
-   "nama_asli": [
-    "AYAM PEJANTAN 0,7 - 0,8"
-   ],
-   "foto": []
-  },
   {
    "sku": "SNFI-002",
    "slug": "brazil-beef-cuberoll-minerva",
@@ -514,13 +488,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/aust-neck-bone-merasmist-paradigm-est-3416.webp"
     }
    ],
    "nama_asli": [
     "AUST NECK BONE MERASMIST (PARADIGM) EST 3416"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/aust-neck-bone-merasmist-paradigm-est-3416.webp"
+   ]
   },
   {
    "sku": "SNFI-019",
@@ -533,14 +509,14 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": "/img/stok/iga.webp"
+     "foto": "/img/produk/aust-short-ribs-iw-ect-a.webp"
     }
    ],
    "nama_asli": [
     "AUST SHORT RIBS IW ECT A"
    ],
    "foto": [
-    "/img/stok/iga.webp"
+    "/img/produk/aust-short-ribs-iw-ect-a.webp"
    ]
   },
   {
@@ -554,13 +530,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/neckbone-cassino.webp"
     }
    ],
    "nama_asli": [
     "NECKBONE CASSINO"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/neckbone-cassino.webp"
+   ]
   },
   {
    "sku": "SNFI-021",
@@ -573,13 +551,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/neckbone-nolan.webp"
     }
    ],
    "nama_asli": [
     "NECKBONE NOLAN"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/neckbone-nolan.webp"
+   ]
   },
   {
    "sku": "SNFI-022",
@@ -592,13 +572,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/bzl-oxtail.webp"
     }
    ],
    "nama_asli": [
     "BZL OXTAIL"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bzl-oxtail.webp"
+   ]
   },
   {
    "sku": "SNFI-023",
@@ -611,13 +593,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/ayam-dada-fillet-bld.webp"
     }
    ],
    "nama_asli": [
     "AYAM DADA FILLET (BLD)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-dada-fillet-bld.webp"
+   ]
   },
   {
    "sku": "SNFI-024",
@@ -630,13 +614,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/ayam-paha-fillet-blp.webp"
     }
    ],
    "nama_asli": [
     "AYAM PAHA FILLET (BLP)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-paha-fillet-blp.webp"
+   ]
   },
   {
    "sku": "SNFI-025",
@@ -649,13 +635,15 @@
    "varian": [
     {
      "ukuran": "0,8 - 0,9 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 0,8 - 0,9 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-026",
@@ -668,13 +656,15 @@
    "varian": [
     {
      "ukuran": "0,9 - 1,0 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 0,9 - 1,0 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-027",
@@ -687,13 +677,15 @@
    "varian": [
     {
      "ukuran": "1,0 - 1,1 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 1,0 - 1,1 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-028",
@@ -706,13 +698,15 @@
    "varian": [
     {
      "ukuran": "1,1 - 1,2 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 1,1 - 1,2 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-029",
@@ -725,13 +719,15 @@
    "varian": [
     {
      "ukuran": "1,2 - 1,3 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 1,2 - 1,3 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-030",
@@ -744,13 +740,15 @@
    "varian": [
     {
      "ukuran": "1,3 - 1,4 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 1,3 - 1,4 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-031",
@@ -763,13 +761,15 @@
    "varian": [
     {
      "ukuran": "1,4 - 1,5 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 1,4 - 1,5 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-032",
@@ -782,13 +782,15 @@
    "varian": [
     {
      "ukuran": "1,5 - 1,6 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 1,5 - 1,6 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-033",
@@ -801,13 +803,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/ayam-hati-bersih.webp"
     }
    ],
    "nama_asli": [
     "AYAM HATI BERSIH"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-hati-bersih.webp"
+   ]
   },
   {
    "sku": "SNFI-034",
@@ -820,13 +824,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/ayam-ampela-bersih.webp"
     }
    ],
    "nama_asli": [
     "AYAM AMPELA BERSIH"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-ampela-bersih.webp"
+   ]
   },
   {
    "sku": "SNFI-035",
@@ -839,13 +845,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/ayam-kulit-bersih.webp"
     }
    ],
    "nama_asli": [
     "AYAM KULIT BERSIH"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-kulit-bersih.webp"
+   ]
   },
   {
    "sku": "SNFI-036",
@@ -858,13 +866,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/sayap-ayam-sedang.webp"
     }
    ],
    "nama_asli": [
     "SAYAP AYAM SEDANG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/sayap-ayam-sedang.webp"
+   ]
   },
   {
    "sku": "SNFI-037",
@@ -877,13 +887,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/ayam-paha-utuh.webp"
     }
    ],
    "nama_asli": [
     "AYAM PAHA UTUH"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-paha-utuh.webp"
+   ]
   },
   {
    "sku": "SNFI-038",
@@ -896,13 +908,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/paha-bawah-ipin-upin.webp"
     }
    ],
    "nama_asli": [
     "PAHA BAWAH (IPIN / UPIN)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/paha-bawah-ipin-upin.webp"
+   ]
   },
   {
    "sku": "SNFI-039",
@@ -915,13 +929,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/ayam-hati-bersih-grade-b.webp"
     }
    ],
    "nama_asli": [
     "AYAM HATI BERSIH GRADE B"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-hati-bersih-grade-b.webp"
+   ]
   },
   {
    "sku": "SNFI-040",
@@ -934,13 +950,36 @@
    "varian": [
     {
      "ukuran": "0,7 - 0,8 kg/ekor",
-     "foto": null
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
     "AYAM KARKAS FROZEN (SZ 0,7 - 0,8 EKOR)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-karkas-frozen.webp"
+   ]
+  },
+  {
+   "sku": "SNFI-001",
+   "slug": "ayam-pejantan-0-7-0-8",
+   "nama_id": "Ayam Pejantan",
+   "nama_en": "Rooster Chicken",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "0,7 - 0,8",
+     "foto": "/img/produk/ayam-pejantan-0-7-0-8.webp"
+    }
+   ],
+   "nama_asli": [
+    "AYAM PEJANTAN 0,7 - 0,8"
+   ],
+   "foto": [
+    "/img/produk/ayam-pejantan-0-7-0-8.webp"
+   ]
   },
   {
    "sku": "SNFI-041",
@@ -953,13 +992,15 @@
    "varian": [
     {
      "ukuran": "1,00 - 1,09",
-     "foto": null
+     "foto": "/img/produk/bebek-merdeka-1-00-1-09.webp"
     }
    ],
    "nama_asli": [
     "BEBEK MERDEKA 1,00 - 1,09"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-merdeka-1-00-1-09.webp"
+   ]
   },
   {
    "sku": "SNFI-042",
@@ -972,13 +1013,15 @@
    "varian": [
     {
      "ukuran": "1,50 - 1,59",
-     "foto": null
+     "foto": "/img/produk/bebek-bebekku-1-50-1-59.webp"
     }
    ],
    "nama_asli": [
     "BEBEK BEBEKKU 1,50 - 1,59"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-bebekku-1-50-1-59.webp"
+   ]
   },
   {
    "sku": "SNFI-043",
@@ -991,13 +1034,15 @@
    "varian": [
     {
      "ukuran": "1,20 - 1,29",
-     "foto": null
+     "foto": "/img/produk/bebek-polos.webp"
     }
    ],
    "nama_asli": [
     "BEBEK 1,20 - 1,29 POLOS"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-polos.webp"
+   ]
   },
   {
    "sku": "SNFI-044",
@@ -1010,13 +1055,15 @@
    "varian": [
     {
      "ukuran": "1,40 - 1,49",
-     "foto": null
+     "foto": "/img/produk/bebek-polos.webp"
     }
    ],
    "nama_asli": [
     "BEBEK 1,40 - 1,49 POLOS"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-polos.webp"
+   ]
   },
   {
    "sku": "SNFI-045",
@@ -1029,13 +1076,15 @@
    "varian": [
     {
      "ukuran": "2,00 - 2,24",
-     "foto": null
+     "foto": "/img/produk/bebek-meiduck.webp"
     }
    ],
    "nama_asli": [
     "BEBEK MEIDUCK 2,00 - 2,24"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-meiduck.webp"
+   ]
   },
   {
    "sku": "SNFI-046",
@@ -1048,13 +1097,15 @@
    "varian": [
     {
      "ukuran": "2,00 - 2,09",
-     "foto": null
+     "foto": "/img/produk/bebek-polos.webp"
     }
    ],
    "nama_asli": [
     "BEBEK 2,00 - 2,09 POLOS"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-polos.webp"
+   ]
   },
   {
    "sku": "SNFI-047",
@@ -1067,13 +1118,15 @@
    "varian": [
     {
      "ukuran": "2.25 - 2.39",
-     "foto": null
+     "foto": "/img/produk/bebek-meiduck.webp"
     }
    ],
    "nama_asli": [
     "BEBEK MEIDUCK 2.25 - 2.39"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-meiduck.webp"
+   ]
   },
   {
    "sku": "SNFI-048",
@@ -1086,13 +1139,15 @@
    "varian": [
     {
      "ukuran": "2,10 - 2,19",
-     "foto": null
+     "foto": "/img/produk/bebek-polos.webp"
     }
    ],
    "nama_asli": [
     "BEBEK 2,10 - 2,19 POLOS"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-polos.webp"
+   ]
   },
   {
    "sku": "SNFI-049",
@@ -1105,13 +1160,15 @@
    "varian": [
     {
      "ukuran": "2,20 - 2,29",
-     "foto": null
+     "foto": "/img/produk/bebek-polos.webp"
     }
    ],
    "nama_asli": [
     "BEBEK 2,20 - 2,29 POLOS"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bebek-polos.webp"
+   ]
   },
   {
    "sku": "SNFI-050",
@@ -1124,13 +1181,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/aust-ligamenthum-urat-mayang.webp"
     }
    ],
    "nama_asli": [
     "AUST LIGAMENTHUM / URAT MAYANG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/aust-ligamenthum-urat-mayang.webp"
+   ]
   },
   {
    "sku": "SNFI-051",
@@ -1143,13 +1202,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/aust-liver-hati-sapi.webp"
     }
    ],
    "nama_asli": [
     "AUST LIVER / HATI SAPI"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/aust-liver-hati-sapi.webp"
+   ]
   },
   {
    "sku": "SNFI-052",
@@ -1162,13 +1223,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/paru-amh.webp"
     }
    ],
    "nama_asli": [
     "PARU AMH"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/paru-amh.webp"
+   ]
   },
   {
    "sku": "SNFI-053",
@@ -1181,13 +1244,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/espan-ligamentum-umay-carnemax.webp"
     }
    ],
    "nama_asli": [
     "ESPAN LIGAMENTUM/UMAY CARNEMAX"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/espan-ligamentum-umay-carnemax.webp"
+   ]
   },
   {
    "sku": "SNFI-054",
@@ -1200,13 +1265,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/bzl-lung.webp"
     }
    ],
    "nama_asli": [
     "BZL LUNG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bzl-lung.webp"
+   ]
   },
   {
    "sku": "SNFI-055",
@@ -1219,13 +1286,15 @@
    "varian": [
     {
      "ukuran": "@1KG",
-     "foto": null
+     "foto": "/img/produk/strawberry-frozen-1kg.webp"
     }
    ],
    "nama_asli": [
     "STRAWBERRY FROZEN @1KG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/strawberry-frozen-1kg.webp"
+   ]
   },
   {
    "sku": "SNFI-056",
@@ -1238,13 +1307,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/bluberry-frozen.webp"
     }
    ],
    "nama_asli": [
     "BLUBERRY FROZEN"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/bluberry-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-057",
@@ -1257,13 +1328,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/kk-mix-berry-frozen.webp"
     }
    ],
    "nama_asli": [
     "KK MIX BERRY FROZEN"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/kk-mix-berry-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-058",
@@ -1276,13 +1349,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/markisa-biji-frozen.webp"
     }
    ],
    "nama_asli": [
     "MARKISA BIJI FROZEN"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/markisa-biji-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-059",
@@ -1314,13 +1389,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/kk-black-berry.webp"
     }
    ],
    "nama_asli": [
     "KK BLACK BERRY"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/kk-black-berry.webp"
+   ]
   },
   {
    "sku": "SNFI-061",
@@ -1333,13 +1410,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/kk-cranberry-frozen.webp"
     }
    ],
    "nama_asli": [
     "KK CRANBERRY FROZEN"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/kk-cranberry-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-062",
@@ -1352,13 +1431,15 @@
    "varian": [
     {
      "ukuran": "106/105",
-     "foto": null
+     "foto": "/img/produk/daging-95-cl-roll-fq-106-105.webp"
     }
    ],
    "nama_asli": [
     "DAGING 95 CL ROLL FQ 106/105"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-95-cl-roll-fq-106-105.webp"
+   ]
   },
   {
    "sku": "SNFI-063",
@@ -1371,13 +1452,15 @@
    "varian": [
     {
      "ukuran": "18/16",
-     "foto": null
+     "foto": "/img/produk/daging-95-cl-bullpack-fq-18-16.webp"
     }
    ],
    "nama_asli": [
     "DAGING 95 CL BULLPACK FQ 18/16"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-95-cl-bullpack-fq-18-16.webp"
+   ]
   },
   {
    "sku": "SNFI-064",
@@ -1390,13 +1473,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-chuck-tender-fq-64.webp"
     }
    ],
    "nama_asli": [
     "DAGING CHUCK TENDER FQ 64"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-chuck-tender-fq-64.webp"
+   ]
   },
   {
    "sku": "SNFI-065",
@@ -1409,13 +1494,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-blade-fq-65.webp"
     }
    ],
    "nama_asli": [
     "DAGING BLADE FQ 65"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-blade-fq-65.webp"
+   ]
   },
   {
    "sku": "SNFI-066",
@@ -1428,13 +1515,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-tenderloin-hq-31.webp"
     }
    ],
    "nama_asli": [
     "DAGING TENDERLOIN HQ 31"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-tenderloin-hq-31.webp"
+   ]
   },
   {
    "sku": "SNFI-067",
@@ -1447,13 +1536,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-topside-hq-41.webp"
     }
    ],
    "nama_asli": [
     "DAGING TOPSIDE HQ 41"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-topside-hq-41.webp"
+   ]
   },
   {
    "sku": "SNFI-068",
@@ -1466,13 +1557,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-knuckle-hq-42.webp"
     }
    ],
    "nama_asli": [
     "DAGING KNUCKLE HQ 42"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-knuckle-hq-42.webp"
+   ]
   },
   {
    "sku": "SNFI-069",
@@ -1485,13 +1578,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-silverside-hq-44.webp"
     }
    ],
    "nama_asli": [
     "DAGING SILVERSIDE HQ 44"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-silverside-hq-44.webp"
+   ]
   },
   {
    "sku": "SNFI-070",
@@ -1504,13 +1599,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-rump-hq-45.webp"
     }
    ],
    "nama_asli": [
     "DAGING RUMP HQ 45"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-rump-hq-45.webp"
+   ]
   },
   {
    "sku": "SNFI-071",
@@ -1523,13 +1620,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-striploin-hq-46.webp"
     }
    ],
    "nama_asli": [
     "DAGING STRIPLOIN HQ 46"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-striploin-hq-46.webp"
+   ]
   },
   {
    "sku": "SNFI-072",
@@ -1542,13 +1641,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/daging-001.webp"
     }
    ],
    "nama_asli": [
     "DAGING 001"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-001.webp"
+   ]
   },
   {
    "sku": "SNFI-073",
@@ -1561,13 +1662,15 @@
    "varian": [
     {
      "ukuran": "@800GR",
-     "foto": null
+     "foto": "/img/produk/daging-kambing-fillet-tanpa-tulang-800gr.webp"
     }
    ],
    "nama_asli": [
     "DAGING KAMBING FILLET TANPA TULANG @800GR"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/daging-kambing-fillet-tanpa-tulang-800gr.webp"
+   ]
   },
   {
    "sku": "SNFI-074",
@@ -1580,13 +1683,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/karkas-kambing.webp"
     }
    ],
    "nama_asli": [
     "KARKAS KAMBING"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/karkas-kambing.webp"
+   ]
   },
   {
    "sku": "SNFI-075",
@@ -1599,13 +1704,15 @@
    "varian": [
     {
      "ukuran": "1KG",
-     "foto": null
+     "foto": "/img/produk/iga-kambing-1kg.webp"
     }
    ],
    "nama_asli": [
     "IGA KAMBING 1KG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/iga-kambing-1kg.webp"
+   ]
   },
   {
    "sku": "SNFI-076",
@@ -1618,13 +1725,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/paha-kambing-sampil.webp"
     }
    ],
    "nama_asli": [
     "PAHA KAMBING (SAMPIL)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/paha-kambing-sampil.webp"
+   ]
   },
   {
    "sku": "SNFI-077",
@@ -1637,13 +1746,15 @@
    "varian": [
     {
      "ukuran": "13X385GR",
-     "foto": null
+     "foto": "/img/produk/fr-pangasius-fillet-nbl-13x385gr.webp"
     }
    ],
    "nama_asli": [
     "FR PANGASIUS FILLET NBL 13X385GR"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/fr-pangasius-fillet-nbl-13x385gr.webp"
+   ]
   },
   {
    "sku": "SNFI-078",
@@ -1656,13 +1767,15 @@
    "varian": [
     {
      "ukuran": "71-90",
-     "foto": null
+     "foto": "/img/produk/van-raw-pnd-iqf-frosh-udang-kupas-71-90.webp"
     }
    ],
    "nama_asli": [
     "VAN RAW PND IQF FROSH SZ 71-90 (UDANG KUPAS)"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/van-raw-pnd-iqf-frosh-udang-kupas-71-90.webp"
+   ]
   },
   {
    "sku": "SNFI-079",
@@ -1675,13 +1788,15 @@
    "varian": [
     {
      "ukuran": "500GR",
-     "foto": null
+     "foto": "/img/produk/beef-slice-grd-b-500gr.webp"
     }
    ],
    "nama_asli": [
     "BEEF SLICE GRD B 500GR"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/beef-slice-grd-b-500gr.webp"
+   ]
   },
   {
    "sku": "SNFI-080",
@@ -1694,13 +1809,15 @@
    "varian": [
     {
      "ukuran": "500GRAM",
-     "foto": null
+     "foto": "/img/produk/beef-slice-grade-a-500gram.webp"
     }
    ],
    "nama_asli": [
     "BEEF SLICE GRADE A 500GRAM"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/beef-slice-grade-a-500gram.webp"
+   ]
   },
   {
    "sku": "SNFI-081",
@@ -1713,13 +1830,15 @@
    "varian": [
     {
      "ukuran": "1 KG",
-     "foto": null
+     "foto": "/img/produk/aust-minced-beef-import-85cl-1-kg.webp"
     }
    ],
    "nama_asli": [
     "AUST MINCED BEEF IMPORT 85CL 1 KG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/aust-minced-beef-import-85cl-1-kg.webp"
+   ]
   },
   {
    "sku": "SNFI-082",
@@ -1732,13 +1851,15 @@
    "varian": [
     {
      "ukuran": "500 GRAM",
-     "foto": null
+     "foto": "/img/produk/ayam-slice-500-gram.webp"
     }
    ],
    "nama_asli": [
     "AYAM SLICE 500 GRAM"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-slice-500-gram.webp"
+   ]
   },
   {
    "sku": "SNFI-083",
@@ -1751,13 +1872,15 @@
    "varian": [
     {
      "ukuran": "1KG",
-     "foto": null
+     "foto": "/img/produk/aust-minced-beef-import-95cl-1kg.webp"
     }
    ],
    "nama_asli": [
     "AUST MINCED BEEF IMPORT 95CL 1KG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/aust-minced-beef-import-95cl-1kg.webp"
+   ]
   },
   {
    "sku": "SNFI-084",
@@ -1770,13 +1893,15 @@
    "varian": [
     {
      "ukuran": "500 GRAM",
-     "foto": null
+     "foto": "/img/produk/ayam-minced-lokal-500-gram.webp"
     }
    ],
    "nama_asli": [
     "AYAM MINCED LOKAL 500 GRAM"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/ayam-minced-lokal-500-gram.webp"
+   ]
   },
   {
    "sku": "SNFI-085",
@@ -1789,13 +1914,15 @@
    "varian": [
     {
      "ukuran": "500 GRAM",
-     "foto": null
+     "foto": "/img/produk/beef-rendang-500-gram.webp"
     }
    ],
    "nama_asli": [
     "BEEF RENDANG 500 GRAM"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/beef-rendang-500-gram.webp"
+   ]
   },
   {
    "sku": "SNFI-086",
@@ -1808,13 +1935,15 @@
    "varian": [
     {
      "ukuran": "500GRAM",
-     "foto": null
+     "foto": "/img/produk/usa-beef-shortplate-slice-500gram.webp"
     }
    ],
    "nama_asli": [
     "USA BEEF SHORTPLATE SLICE 500GRAM"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/usa-beef-shortplate-slice-500gram.webp"
+   ]
   },
   {
    "sku": "SNFI-087",
@@ -1827,13 +1956,15 @@
    "varian": [
     {
      "ukuran": "500GRAM",
-     "foto": null
+     "foto": "/img/produk/mix-slice-500gram.webp"
     }
    ],
    "nama_asli": [
     "MIX SLICE 500GRAM"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/mix-slice-500gram.webp"
+   ]
   },
   {
    "sku": "SNFI-088",
@@ -1846,13 +1977,15 @@
    "varian": [
     {
      "ukuran": "1KG",
-     "foto": null
+     "foto": "/img/produk/minced-beef-import-75-cl-1kg.webp"
     }
    ],
    "nama_asli": [
     "MINCED BEEF IMPORT 75 CL 1KG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/minced-beef-import-75-cl-1kg.webp"
+   ]
   },
   {
    "sku": "SNFI-089",
@@ -2441,13 +2574,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/surabaja-bakso-sapi-kecil.webp"
     }
    ],
    "nama_asli": [
     "SURABAJA BAKSO SAPI KECIL"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/surabaja-bakso-sapi-kecil.webp"
+   ]
   },
   {
    "sku": "SNFI-114",
@@ -2460,13 +2595,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/surabaja-bakso-sapi-jumbo.webp"
     }
    ],
    "nama_asli": [
     "SURABAJA BAKSO SAPI JUMBO"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/surabaja-bakso-sapi-jumbo.webp"
+   ]
   },
   {
    "sku": "SNFI-115",
@@ -2479,13 +2616,15 @@
    "varian": [
     {
      "ukuran": "1KG",
-     "foto": null
+     "foto": "/img/produk/kk-mix-vegetable-4-ways-1kg.webp"
     }
    ],
    "nama_asli": [
     "KK MIX VEGETABLE (4 WAYS) 1KG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/kk-mix-vegetable-4-ways-1kg.webp"
+   ]
   },
   {
    "sku": "SNFI-116",
@@ -2498,13 +2637,15 @@
    "varian": [
     {
      "ukuran": "1KG",
-     "foto": null
+     "foto": "/img/produk/kk-mix-vegetable-3-ways-1kg.webp"
     }
    ],
    "nama_asli": [
     "KK MIX VEGETABLE (3 WAYS) 1KG"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/kk-mix-vegetable-3-ways-1kg.webp"
+   ]
   },
   {
    "sku": "SNFI-117",
@@ -2517,13 +2658,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/green-peas.webp"
     }
    ],
    "nama_asli": [
     "GREEN PEAS"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/green-peas.webp"
+   ]
   },
   {
    "sku": "SNFI-118",
@@ -2536,13 +2679,15 @@
    "varian": [
     {
      "ukuran": "@1KG X 10PAK",
-     "foto": null
+     "foto": "/img/produk/home-mixed-4-vegetables-4-ways-1kg-x-10pak.webp"
     }
    ],
    "nama_asli": [
     "HOME MIXED 4 VEGETABLES (4 WAYS) @1KG X 10PAK"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/home-mixed-4-vegetables-4-ways-1kg-x-10pak.webp"
+   ]
   },
   {
    "sku": "SNFI-119",
@@ -2555,13 +2700,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/edamame-frozen.webp"
     }
    ],
    "nama_asli": [
     "EDAMAME FROZEN"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/edamame-frozen.webp"
+   ]
   }
  ]
 }
