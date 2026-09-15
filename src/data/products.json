@@ -8,46 +8,11 @@
    "jumlah": 16
   },
   {
-   "kode": "SEAFOOD",
-   "slug": "seafood",
-   "id": "Hasil Laut",
-   "en": "Seafood",
-   "jumlah": 24
-  },
-  {
-   "kode": "CHICKEN",
-   "slug": "chicken",
-   "id": "Ayam",
-   "en": "Chicken",
-   "jumlah": 19
-  },
-  {
-   "kode": "INDIAN BUFFALO",
-   "slug": "kerbau",
-   "id": "Kerbau India",
-   "en": "Indian Buffalo",
-   "jumlah": 11
-  },
-  {
-   "kode": "DUCK",
-   "slug": "duck",
-   "id": "Bebek",
-   "en": "Duck",
-   "jumlah": 9
-  },
-  {
    "kode": "PRODUKSI",
-   "slug": "olahan",
-   "id": "Olahan SNFI",
-   "en": "SNFI Processed",
-   "jumlah": 10
-  },
-  {
-   "kode": "LAMB",
-   "slug": "lamb",
-   "id": "Kambing",
-   "en": "Goat & Lamb",
-   "jumlah": 4
+   "slug": "slice-cut",
+   "id": "Slice & Other Cut",
+   "en": "Slice & Other Cut",
+   "jumlah": 8
   },
   {
    "kode": "BONE",
@@ -64,11 +29,46 @@
    "jumlah": 5
   },
   {
+   "kode": "INDIAN BUFFALO",
+   "slug": "kerbau",
+   "id": "Kerbau India",
+   "en": "Indian Buffalo",
+   "jumlah": 11
+  },
+  {
+   "kode": "LAMB",
+   "slug": "lamb",
+   "id": "Kambing",
+   "en": "Goat & Lamb",
+   "jumlah": 4
+  },
+  {
+   "kode": "CHICKEN",
+   "slug": "chicken",
+   "id": "Ayam",
+   "en": "Chicken",
+   "jumlah": 13
+  },
+  {
+   "kode": "DUCK",
+   "slug": "duck",
+   "id": "Bebek",
+   "en": "Duck",
+   "jumlah": 5
+  },
+  {
+   "kode": "SEAFOOD",
+   "slug": "seafood",
+   "id": "Hasil Laut",
+   "en": "Seafood",
+   "jumlah": 25
+  },
+  {
    "kode": "FROZEN FRUIT",
    "slug": "fruit",
    "id": "Buah Beku",
    "en": "Frozen Fruit",
-   "jumlah": 7
+   "jumlah": 8
   },
   {
    "kode": "VEGETABLE",
@@ -78,17 +78,17 @@
    "jumlah": 5
   },
   {
-   "kode": "SURABAJA",
-   "slug": "bakso",
-   "id": "Bakso Surabaja",
-   "en": "Surabaja Meatballs",
-   "jumlah": 2
-  },
-  {
    "kode": "PRODUCT CENTRALPERTIWI",
    "slug": "laut-olahan",
    "id": "Produk Laut Olahan",
    "en": "Processed Seafood",
+   "jumlah": 2
+  },
+  {
+   "kode": "SURABAJA",
+   "slug": "bakso",
+   "id": "Bakso Surabaja",
+   "en": "Surabaja Meatballs",
    "jumlah": 2
   }
  ],
@@ -585,8 +585,8 @@
   {
    "sku": "SNFI-023",
    "slug": "ayam-dada-fillet-bld",
-   "nama_id": "Ayam Dada Fillet (bld",
-   "nama_en": "Chicken Breast Fillet (bld",
+   "nama_id": "Ayam Dada Fillet (BLD)",
+   "nama_en": "Chicken Breast Fillet (BLD)",
    "kategori": "CHICKEN",
    "kategori_slug": "chicken",
    "asal": "",
@@ -606,8 +606,8 @@
   {
    "sku": "SNFI-024",
    "slug": "ayam-paha-fillet-blp",
-   "nama_id": "Ayam Paha Fillet (blp",
-   "nama_en": "Chicken Thigh Fillet (blp",
+   "nama_id": "Ayam Paha Fillet (BLP)",
+   "nama_en": "Chicken Thigh Fillet (BLP)",
    "kategori": "CHICKEN",
    "kategori_slug": "chicken",
    "asal": "",
@@ -636,157 +636,50 @@
     {
      "ukuran": "0,8 - 0,9 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 0,8 - 0,9 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-026",
-   "slug": "ayam-karkas-frozen-0-9-1-0-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "0,9 - 1,0 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 0,9 - 1,0 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-027",
-   "slug": "ayam-karkas-frozen-1-0-1-1-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "1,0 - 1,1 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 1,0 - 1,1 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-028",
-   "slug": "ayam-karkas-frozen-1-1-1-2-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "1,1 - 1,2 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 1,1 - 1,2 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-029",
-   "slug": "ayam-karkas-frozen-1-2-1-3-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "1,2 - 1,3 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 1,2 - 1,3 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-030",
-   "slug": "ayam-karkas-frozen-1-3-1-4-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "1,3 - 1,4 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 1,3 - 1,4 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-031",
-   "slug": "ayam-karkas-frozen-1-4-1-5-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "1,4 - 1,5 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 1,4 - 1,5 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-032",
-   "slug": "ayam-karkas-frozen-1-5-1-6-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "1,5 - 1,6 kg/ekor",
+     "foto": "/img/produk/ayam-karkas-frozen.webp"
+    },
+    {
+     "ukuran": "0,7 - 0,8 kg/ekor",
      "foto": "/img/produk/ayam-karkas-frozen.webp"
     }
    ],
    "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 1,5 - 1,6 EKOR)"
+    "AYAM KARKAS FROZEN (SZ 0,8 - 0,9 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 0,9 - 1,0 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 1,0 - 1,1 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 1,1 - 1,2 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 1,2 - 1,3 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 1,3 - 1,4 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 1,4 - 1,5 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 1,5 - 1,6 EKOR)",
+    "AYAM KARKAS FROZEN (SZ 0,7 - 0,8 EKOR)"
    ],
    "foto": [
     "/img/produk/ayam-karkas-frozen.webp"
@@ -900,8 +793,8 @@
   {
    "sku": "SNFI-038",
    "slug": "paha-bawah-ipin-upin",
-   "nama_id": "Paha Bawah (ipin / Upin",
-   "nama_en": "Thigh Lower (ipin / Upin",
+   "nama_id": "Paha Bawah (Ipin / Upin)",
+   "nama_en": "Thigh Lower (Ipin / Upin)",
    "kategori": "CHICKEN",
    "kategori_slug": "chicken",
    "asal": "",
@@ -937,27 +830,6 @@
    ],
    "foto": [
     "/img/produk/ayam-hati-bersih-grade-b.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-040",
-   "slug": "ayam-karkas-frozen-0-7-0-8-kg-ekor",
-   "nama_id": "Ayam Karkas Frozen",
-   "nama_en": "Frozen Whole Chicken",
-   "kategori": "CHICKEN",
-   "kategori_slug": "chicken",
-   "asal": "",
-   "varian": [
-    {
-     "ukuran": "0,7 - 0,8 kg/ekor",
-     "foto": "/img/produk/ayam-karkas-frozen.webp"
-    }
-   ],
-   "nama_asli": [
-    "AYAM KARKAS FROZEN (SZ 0,7 - 0,8 EKOR)"
-   ],
-   "foto": [
-    "/img/produk/ayam-karkas-frozen.webp"
    ]
   },
   {
@@ -1035,31 +907,30 @@
     {
      "ukuran": "1,20 - 1,29",
      "foto": "/img/produk/bebek-polos.webp"
-    }
-   ],
-   "nama_asli": [
-    "BEBEK 1,20 - 1,29 POLOS"
-   ],
-   "foto": [
-    "/img/produk/bebek-polos.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-044",
-   "slug": "bebek-polos-1-40-1-49",
-   "nama_id": "Bebek Polos",
-   "nama_en": "Duck Plain",
-   "kategori": "DUCK",
-   "kategori_slug": "duck",
-   "asal": "",
-   "varian": [
+    },
     {
      "ukuran": "1,40 - 1,49",
+     "foto": "/img/produk/bebek-polos.webp"
+    },
+    {
+     "ukuran": "2,00 - 2,09",
+     "foto": "/img/produk/bebek-polos.webp"
+    },
+    {
+     "ukuran": "2,10 - 2,19",
+     "foto": "/img/produk/bebek-polos.webp"
+    },
+    {
+     "ukuran": "2,20 - 2,29",
      "foto": "/img/produk/bebek-polos.webp"
     }
    ],
    "nama_asli": [
-    "BEBEK 1,40 - 1,49 POLOS"
+    "BEBEK 1,20 - 1,29 POLOS",
+    "BEBEK 1,40 - 1,49 POLOS",
+    "BEBEK 2,00 - 2,09 POLOS",
+    "BEBEK 2,10 - 2,19 POLOS",
+    "BEBEK 2,20 - 2,29 POLOS"
    ],
    "foto": [
     "/img/produk/bebek-polos.webp"
@@ -1075,53 +946,44 @@
    "asal": "",
    "varian": [
     {
-     "ukuran": "2,00 - 2,24",
+     "ukuran": "A · 3 kg up",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "B · 2,90 - 2,99",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "C · 2,80 - 2,89",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "D · 2,70 - 2,79",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "E · 2,60 - 2,69",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "F · 2,50 - 2,59",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "G · 2,40 - 2,49",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "H · 2,25 - 2,39",
+     "foto": "/img/produk/bebek-meiduck.webp"
+    },
+    {
+     "ukuran": "I · 2,00 - 2,24",
      "foto": "/img/produk/bebek-meiduck.webp"
     }
    ],
    "nama_asli": [
-    "BEBEK MEIDUCK 2,00 - 2,24"
-   ],
-   "foto": [
-    "/img/produk/bebek-meiduck.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-046",
-   "slug": "bebek-polos-2-00-2-09",
-   "nama_id": "Bebek Polos",
-   "nama_en": "Duck Plain",
-   "kategori": "DUCK",
-   "kategori_slug": "duck",
-   "asal": "",
-   "varian": [
-    {
-     "ukuran": "2,00 - 2,09",
-     "foto": "/img/produk/bebek-polos.webp"
-    }
-   ],
-   "nama_asli": [
-    "BEBEK 2,00 - 2,09 POLOS"
-   ],
-   "foto": [
-    "/img/produk/bebek-polos.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-047",
-   "slug": "bebek-meiduck-2-25-2-39",
-   "nama_id": "Bebek Meiduck",
-   "nama_en": "Duck Meiduck",
-   "kategori": "DUCK",
-   "kategori_slug": "duck",
-   "asal": "",
-   "varian": [
-    {
-     "ukuran": "2.25 - 2.39",
-     "foto": "/img/produk/bebek-meiduck.webp"
-    }
-   ],
-   "nama_asli": [
+    "BEBEK MEIDUCK 2,00 - 2,24",
     "BEBEK MEIDUCK 2.25 - 2.39"
    ],
    "foto": [
@@ -1129,45 +991,56 @@
    ]
   },
   {
-   "sku": "SNFI-048",
-   "slug": "bebek-polos-2-10-2-19",
-   "nama_id": "Bebek Polos",
-   "nama_en": "Duck Plain",
+   "sku": "SNFI-120",
+   "slug": "bebek-golden-duck",
+   "nama_id": "Bebek Golden Duck",
+   "nama_en": "Golden Duck",
    "kategori": "DUCK",
    "kategori_slug": "duck",
    "asal": "",
    "varian": [
     {
-     "ukuran": "2,10 - 2,19",
-     "foto": "/img/produk/bebek-polos.webp"
-    }
-   ],
-   "nama_asli": [
-    "BEBEK 2,10 - 2,19 POLOS"
-   ],
-   "foto": [
-    "/img/produk/bebek-polos.webp"
-   ]
-  },
-  {
-   "sku": "SNFI-049",
-   "slug": "bebek-polos-2-20-2-29",
-   "nama_id": "Bebek Polos",
-   "nama_en": "Duck Plain",
-   "kategori": "DUCK",
-   "kategori_slug": "duck",
-   "asal": "",
-   "varian": [
+     "ukuran": "A · 3 kg up",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
     {
-     "ukuran": "2,20 - 2,29",
-     "foto": "/img/produk/bebek-polos.webp"
+     "ukuran": "B · 2,90 - 2,99",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
+    {
+     "ukuran": "C · 2,80 - 2,89",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
+    {
+     "ukuran": "D · 2,70 - 2,79",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
+    {
+     "ukuran": "E · 2,60 - 2,69",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
+    {
+     "ukuran": "F · 2,50 - 2,59",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
+    {
+     "ukuran": "G · 2,40 - 2,49",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
+    {
+     "ukuran": "H · 2,25 - 2,39",
+     "foto": "/img/produk/bebek-golden-duck.webp"
+    },
+    {
+     "ukuran": "I · 2,00 - 2,24",
+     "foto": "/img/produk/bebek-golden-duck.webp"
     }
    ],
    "nama_asli": [
-    "BEBEK 2,20 - 2,29 POLOS"
+    "BEBEK PEKING BEKU GOLDEN DUCK"
    ],
    "foto": [
-    "/img/produk/bebek-polos.webp"
+    "/img/produk/bebek-golden-duck.webp"
    ]
   },
   {
@@ -1319,23 +1192,23 @@
   },
   {
    "sku": "SNFI-057",
-   "slug": "kk-mix-berry-frozen",
-   "nama_id": "KK MIX Berry Frozen",
-   "nama_en": "KK Mixed Berry Frozen",
+   "slug": "kk-mangga-frozen",
+   "nama_id": "Mangga Frozen",
+   "nama_en": "Mango Frozen",
    "kategori": "FROZEN FRUIT",
    "kategori_slug": "fruit",
    "asal": "",
    "varian": [
     {
      "ukuran": "",
-     "foto": "/img/produk/kk-mix-berry-frozen.webp"
+     "foto": "/img/produk/kk-mangga-frozen.webp"
     }
    ],
    "nama_asli": [
-    "KK MIX BERRY FROZEN"
+    "MANGGA FROZEN"
    ],
    "foto": [
-    "/img/produk/kk-mix-berry-frozen.webp"
+    "/img/produk/kk-mangga-frozen.webp"
    ]
   },
   {
@@ -1360,6 +1233,27 @@
    ]
   },
   {
+   "sku": "SNFI-121",
+   "slug": "kk-mix-berry-frozen",
+   "nama_id": "KK Mix Berry Frozen",
+   "nama_en": "KK Mixed Berry Frozen",
+   "kategori": "FROZEN FRUIT",
+   "kategori_slug": "fruit",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "",
+     "foto": "/img/produk/kk-mix-berry-frozen.webp"
+    }
+   ],
+   "nama_asli": [
+    "KK MIX BERRY FROZEN"
+   ],
+   "foto": [
+    "/img/produk/kk-mix-berry-frozen.webp"
+   ]
+  },
+  {
    "sku": "SNFI-059",
    "slug": "markisa-non-biji-frozen",
    "nama_id": "Markisa NON Biji Frozen",
@@ -1370,13 +1264,15 @@
    "varian": [
     {
      "ukuran": "",
-     "foto": null
+     "foto": "/img/produk/markisa-non-biji-frozen.webp"
     }
    ],
    "nama_asli": [
     "MARKISA NON BIJI FROZEN"
    ],
-   "foto": []
+   "foto": [
+    "/img/produk/markisa-non-biji-frozen.webp"
+   ]
   },
   {
    "sku": "SNFI-060",
@@ -1717,8 +1613,8 @@
   {
    "sku": "SNFI-076",
    "slug": "paha-kambing-sampil",
-   "nama_id": "Paha Kambing (sampil",
-   "nama_en": "Thigh Goat (sampil",
+   "nama_id": "Paha Kambing (Sampil)",
+   "nama_en": "Thigh Goat (Sampil)",
    "kategori": "LAMB",
    "kategori_slug": "lamb",
    "asal": "",
@@ -1759,8 +1655,8 @@
   {
    "sku": "SNFI-078",
    "slug": "van-raw-pnd-iqf-frosh-udang-kupas-71-90",
-   "nama_id": "VAN RAW PND IQF Frosh (udang Kupas",
-   "nama_en": "VAN RAW PND IQF Frosh (udang Peeled",
+   "nama_id": "VAN RAW PND IQF Frosh (Udang Kupas)",
+   "nama_en": "VAN RAW PND IQF Frosh (Peeled Shrimp)",
    "kategori": "PRODUCT CENTRALPERTIWI",
    "kategori_slug": "laut-olahan",
    "asal": "",
@@ -1782,8 +1678,8 @@
    "slug": "beef-slice-grd-b-500gr",
    "nama_id": "Beef Slice GRD B",
    "nama_en": "Beef Slice GRD B",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "",
    "varian": [
     {
@@ -1803,8 +1699,8 @@
    "slug": "beef-slice-grade-a-500gram",
    "nama_id": "Beef Slice Grade A",
    "nama_en": "Beef Slice Grade A",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "",
    "varian": [
     {
@@ -1824,8 +1720,8 @@
    "slug": "aust-minced-beef-import-85cl-1-kg",
    "nama_id": "Aust Minced Beef Import 85CL",
    "nama_en": "Aust Minced Beef Imported 85CL",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "Australia",
    "varian": [
     {
@@ -1845,8 +1741,8 @@
    "slug": "ayam-slice-500-gram",
    "nama_id": "Ayam Slice",
    "nama_en": "Sliced Chicken",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
    "asal": "",
    "varian": [
     {
@@ -1866,8 +1762,8 @@
    "slug": "aust-minced-beef-import-95cl-1kg",
    "nama_id": "Aust Minced Beef Import 95CL",
    "nama_en": "Aust Minced Beef Imported 95CL",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "Australia",
    "varian": [
     {
@@ -1887,8 +1783,8 @@
    "slug": "ayam-minced-lokal-500-gram",
    "nama_id": "Ayam Minced Lokal",
    "nama_en": "Local Minced Chicken",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "CHICKEN",
+   "kategori_slug": "chicken",
    "asal": "Lokal",
    "varian": [
     {
@@ -1908,8 +1804,8 @@
    "slug": "beef-rendang-500-gram",
    "nama_id": "Beef Rendang",
    "nama_en": "Beef Rendang",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "",
    "varian": [
     {
@@ -1929,8 +1825,8 @@
    "slug": "usa-beef-shortplate-slice-500gram",
    "nama_id": "USA Beef Shortplate Slice",
    "nama_en": "USA Beef Shortplate Slice",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "Amerika Serikat",
    "varian": [
     {
@@ -1950,8 +1846,8 @@
    "slug": "mix-slice-500gram",
    "nama_id": "MIX Slice",
    "nama_en": "Mixed Slice",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "",
    "varian": [
     {
@@ -1971,8 +1867,8 @@
    "slug": "minced-beef-import-75-cl-1kg",
    "nama_id": "Minced Beef Import 75 CL",
    "nama_en": "Minced Beef Imported 75 CL",
-   "kategori": "PRODUKSI",
-   "kategori_slug": "olahan",
+   "kategori": "SLICE & OTHER CUT",
+   "kategori_slug": "slice-cut",
    "asal": "Impor",
    "varian": [
     {
@@ -1990,8 +1886,8 @@
   {
    "sku": "SNFI-089",
    "slug": "udang-windu-15",
-   "nama_id": "Udang Windu",
-   "nama_en": "Black Tiger Shrimp",
+   "nama_id": "Udang Windu 15",
+   "nama_en": "Black Tiger Shrimp 15",
    "kategori": "SEAFOOD",
    "kategori_slug": "seafood",
    "asal": "",
@@ -2014,8 +1910,8 @@
   {
    "sku": "SNFI-090",
    "slug": "udang-windu-20",
-   "nama_id": "Udang Windu",
-   "nama_en": "Black Tiger Shrimp",
+   "nama_id": "Udang Windu 20",
+   "nama_en": "Black Tiger Shrimp 20",
    "kategori": "SEAFOOD",
    "kategori_slug": "seafood",
    "asal": "",
@@ -2038,8 +1934,8 @@
   {
    "sku": "SNFI-091",
    "slug": "udang-windu-25",
-   "nama_id": "Udang Windu",
-   "nama_en": "Black Tiger Shrimp",
+   "nama_id": "Udang Windu 25",
+   "nama_en": "Black Tiger Shrimp 25",
    "kategori": "SEAFOOD",
    "kategori_slug": "seafood",
    "asal": "",
@@ -2060,10 +1956,31 @@
    }
   },
   {
+   "sku": "SNFI-122",
+   "slug": "udang-windu-35",
+   "nama_id": "Udang Windu 35",
+   "nama_en": "Black Tiger Shrimp 35",
+   "kategori": "SEAFOOD",
+   "kategori_slug": "seafood",
+   "asal": "",
+   "varian": [
+    {
+     "ukuran": "35",
+     "foto": "/img/produk/udang-windu-35.webp"
+    }
+   ],
+   "nama_asli": [
+    "UDANG WINDU SZ 35"
+   ],
+   "foto": [
+    "/img/produk/udang-windu-35.webp"
+   ]
+  },
+  {
    "sku": "SNFI-092",
    "slug": "udang-windu-40",
-   "nama_id": "Udang Windu",
-   "nama_en": "Black Tiger Shrimp",
+   "nama_id": "Udang Windu 40",
+   "nama_en": "Black Tiger Shrimp 40",
    "kategori": "SEAFOOD",
    "kategori_slug": "seafood",
    "asal": "",
@@ -2608,8 +2525,8 @@
   {
    "sku": "SNFI-115",
    "slug": "kk-mix-vegetable-4-ways-1kg",
-   "nama_id": "KK MIX Vegetable (4 Ways",
-   "nama_en": "KK Mixed Vegetable (4 Ways",
+   "nama_id": "KK Mix Vegetable (4 Ways)",
+   "nama_en": "KK Mixed Vegetable (4 Ways)",
    "kategori": "VEGETABLE",
    "kategori_slug": "vegetable",
    "asal": "",
@@ -2629,8 +2546,8 @@
   {
    "sku": "SNFI-116",
    "slug": "kk-mix-vegetable-3-ways-1kg",
-   "nama_id": "KK MIX Vegetable (3 Ways",
-   "nama_en": "KK Mixed Vegetable (3 Ways",
+   "nama_id": "KK Mix Vegetable (3 Ways)",
+   "nama_en": "KK Mixed Vegetable (3 Ways)",
    "kategori": "VEGETABLE",
    "kategori_slug": "vegetable",
    "asal": "",
@@ -2671,8 +2588,8 @@
   {
    "sku": "SNFI-118",
    "slug": "home-mixed-4-vegetables-4-ways-1kg-x-10pak",
-   "nama_id": "Home Mixed 4 Vegetables (4 Ways",
-   "nama_en": "Home Mixed 4 Vegetables (4 Ways",
+   "nama_id": "Home Mixed 4 Vegetables (4 Ways)",
+   "nama_en": "Home Mixed 4 Vegetables (4 Ways)",
    "kategori": "VEGETABLE",
    "kategori_slug": "vegetable",
    "asal": "",

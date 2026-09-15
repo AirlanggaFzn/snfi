@@ -75,7 +75,11 @@ const jsonld = {
               <tr><th>{t(lang, 'prod.kategori')}</th><td>{kat[lang]}</td></tr>
               {p.asal && <tr><th>{t(lang, 'prod.asal')}</th><td>{p.asal}</td></tr>}
               {ukuran.length > 0 && (
-                <tr><th>{t(lang, 'prod.varian')}</th><td>{ukuran.join(' · ')}</td></tr>
+                <tr><th>{t(lang, 'prod.varian')}</th><td>
+                  <div class="size-chips">
+                    {ukuran.map((u) => <span class="size-chip">{u}</span>)}
+                  </div>
+                </td></tr>
               )}
               <tr><th>{t(lang, 'prod.simpan')}</th><td>{t(lang, 'prod.simpan.val')}</td></tr>
               <tr><th>{t(lang, 'prod.kemas')}</th><td>{t(lang, 'prod.kemas.val')}</td></tr>

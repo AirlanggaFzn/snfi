@@ -2,6 +2,7 @@
   "resep": [
     {
       "slug": "wagyu-saikoro-lada-hitam",
+      "foto": "/img/resep/wagyu-saikoro-lada-hitam.webp",
       "produk_slug": "wagyu-meltique-beef-saikoro",
       "kategori_slug": "beef",
       "waktu": 20,
@@ -49,6 +50,7 @@
     },
     {
       "slug": "semur-daging-brisket",
+      "foto": "/img/resep/semur-daging-brisket.webp",
       "produk_slug": "bzl-beef-brisket",
       "kategori_slug": "beef",
       "waktu": 120,
@@ -100,6 +102,7 @@
     },
     {
       "slug": "striploin-panggang-wajan",
+      "foto": "/img/resep/striploin-panggang-wajan.webp",
       "produk_slug": "aust-striploin",
       "kategori_slug": "beef",
       "waktu": 25,
@@ -143,6 +146,7 @@
     },
     {
       "slug": "iga-bakar-kecap",
+      "foto": "/img/resep/iga-bakar-kecap.webp",
       "produk_slug": "aust-short-ribs-iw-ect-a",
       "kategori_slug": "bone",
       "waktu": 150,

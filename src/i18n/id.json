@@ -99,6 +99,7 @@
  "foot.cta.title": "Butuh penawaran?",
  "foot.cta.desc": "Chat kami, dibalas jam kerja.",
  "prod.ask": "Tanya Harga",
+ "nav.katalog.pdf": "Download Katalog",
  "hero.h1": "Daging & Seafood Beku",
  "hero.h1.em": "Kualitas Ekspor",
  "cat.more": "Muat Lebih Banyak",
@@ -123,5 +124,8 @@
  "recipe.related": "Resep Lainnya",
  "recipe.view": "Lihat resep",
  "recipe.cta": "Pesan bahannya",
- "recipe.back": "Kembali ke resep"
+ "recipe.back": "Kembali ke resep",
+ "404.title": "Halaman Tidak Ditemukan",
+ "404.desc": "Halaman yang Anda cari tidak ada atau sudah dipindahkan.",
+ "404.cta": "Kembali ke Beranda"
 }

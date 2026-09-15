@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import { path, t } from '../lib/site.js';
+const lang = 'id';
+---
+<Base lang={lang} title={`${t(lang, '404.title')} — SNFI`} description={t(lang, '404.desc')}>
+  <div class="section" style="text-align:center">
+    <div class="wrap">
+      <h1 style="font-size:clamp(48px,10vw,96px);margin:0">404</h1>
+      <p id="nf-title" style="font-size:20px;margin:8px 0 4px">{t(lang, '404.title')}</p>
+      <p id="nf-desc" style="max-width:48ch;margin:0 auto 28px;color:var(--muted,#667)">{t(lang, '404.desc')}</p>
+      <a id="nf-cta" class="btn btn-accent" href={path(lang)}>{t(lang, '404.cta')}</a>
+    </div>
+  </div>
+  <script is:inline define:vars={{ en: { title: t('en', '404.title'), desc: t('en', '404.desc'), cta: t('en', '404.cta') } }}>
+    if (location.pathname.startsWith('/en/')) {
+      document.getElementById('nf-title').textContent = en.title;
+      document.getElementById('nf-desc').textContent = en.desc;
+      var cta = document.getElementById('nf-cta');
+      cta.textContent = en.cta;
+      cta.href = '/en/';
+      document.documentElement.lang = 'en';
+    }
+  </script>
+</Base>

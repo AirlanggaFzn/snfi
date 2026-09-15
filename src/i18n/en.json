@@ -98,6 +98,7 @@
  "foot.cta.title": "Need a quote?",
  "foot.cta.desc": "Message us, we reply in business hours.",
  "prod.ask": "Ask Price",
+ "nav.katalog.pdf": "Download Catalog",
  "hero.h1": "Export-Grade Frozen",
  "hero.h1.em": "Meat & Seafood",
  "cat.more": "Load More",
@@ -122,5 +123,8 @@
  "recipe.related": "More Recipes",
  "recipe.view": "View recipe",
  "recipe.cta": "Order the ingredients",
- "recipe.back": "Back to recipes"
+ "recipe.back": "Back to recipes",
+ "404.title": "Page Not Found",
+ "404.desc": "The page you're looking for doesn't exist or has moved.",
+ "404.cta": "Back to Homepage"
 }
